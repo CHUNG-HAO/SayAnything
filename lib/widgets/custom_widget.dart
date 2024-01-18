@@ -11,11 +11,14 @@ class CustomTextFormField extends StatefulWidget {
   final String hinttext;
   final bool obsecuretext;
   final TextEditingController? controller;
+  final InputDecoration? decoration;
+
   const CustomTextFormField({
     Key? key,
     required this.hinttext,
     required this.obsecuretext,
     this.controller,
+    this.decoration,
   }) : super(key: key);
 
   @override
@@ -24,18 +27,51 @@ class CustomTextFormField extends StatefulWidget {
 
 class _CustomTextFormFieldState extends State<CustomTextFormField> {
   @override
+  void initState() {
+    super.initState();
+    widget.controller?.addListener(_handleTextChanged);
+  }
+
+  @override
+  void dispose() {
+    widget.controller?.removeListener(_handleTextChanged);
+    super.dispose();
+  }
+
+  void _handleTextChanged() {
+    if (!widget.controller!.text.endsWith('@mail.nknu.edu.tw')) {
+      widget.controller!.text = widget.controller!.text + '@mail.nknu.edu.tw';
+      widget.controller!.selection = TextSelection.fromPosition(
+        TextPosition(
+            offset:
+                widget.controller!.text.length - '@mail.nknu.edu.tw'.length),
+      );
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
     return TextFormField(
       controller: widget.controller,
       obscureText: widget.obsecuretext,
-      decoration: InputDecoration(
-          contentPadding: EdgeInsets.all(18),
-          // border: InputBorder.none,
-          border: OutlineInputBorder(
+      decoration: widget.decoration?.copyWith(
+            contentPadding: EdgeInsets.all(18),
+            border: OutlineInputBorder(
               borderSide: BorderSide(color: Colors.black),
-              borderRadius: BorderRadius.circular(12)),
-          hintText: widget.hinttext,
-          hintStyle: Common().hinttext),
+              borderRadius: BorderRadius.circular(12),
+            ),
+            hintText: widget.hinttext,
+            hintStyle: Common().hinttext,
+          ) ??
+          InputDecoration(
+            contentPadding: EdgeInsets.all(18),
+            border: OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.black),
+              borderRadius: BorderRadius.circular(12),
+            ),
+            hintText: widget.hinttext,
+            hintStyle: Common().hinttext,
+          ),
     );
   }
 }

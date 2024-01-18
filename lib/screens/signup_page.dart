@@ -75,9 +75,12 @@ class _SignupPageState extends State<SignupPage> {
                       ),
                       FadeInAnimation(
                         delay: 1.8,
-                        child: const CustomTextFormField(
+                        child: CustomTextFormField(
                           hinttext: 'Email',
                           obsecuretext: false,
+                          decoration: InputDecoration(
+                            suffixText: '@mail.nknu.edu.tw',
+                          ),
                         ),
                       ),
                       const SizedBox(

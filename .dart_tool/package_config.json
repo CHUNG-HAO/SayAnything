@@ -75,9 +75,9 @@
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/flutter_lints-3.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter_svg",
@@ -111,13 +111,13 @@
     },
     {
       "name": "js",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/js-0.6.7",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/js-0.7.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.1"
     },
     {
       "name": "lints",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/lints-2.1.1",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/lints-3.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -129,9 +129,9 @@
     },
     {
       "name": "lottie",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/lottie-2.7.0",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/lottie-3.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     },
     {
       "name": "matcher",
@@ -177,9 +177,9 @@
     },
     {
       "name": "pointycastle",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/pointycastle-3.7.3",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/pointycastle-3.7.4",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.0"
     },
     {
       "name": "sky_engine",
@@ -243,19 +243,19 @@
     },
     {
       "name": "vector_graphics",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/vector_graphics-1.1.9+1",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/vector_graphics-1.1.9+2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "vector_graphics_codec",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/vector_graphics_codec-1.1.9+1",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/vector_graphics_codec-1.1.9+2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "vector_graphics_compiler",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/vector_graphics_compiler-1.1.9+1",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/vector_graphics_compiler-1.1.9+2",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -284,7 +284,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-01-14T20:19:23.765614Z",
+  "generated": "2024-01-18T14:57:21.387019Z",
   "generator": "pub",
   "generatorVersion": "3.2.4"
 }
