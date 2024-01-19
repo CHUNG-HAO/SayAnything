@@ -11,6 +11,7 @@ class Routers {
   static AppRouter authenticationpage = AppRouter(name: "/", path: "/");
   static AppRouter loginpage = AppRouter(name: "/login", path: "/login");
   static AppRouter signuppage = AppRouter(name: "/signip", path: "/signup");
+  static AppRouter homepage = AppRouter(name: "/home", path: "/home");
   static AppRouter forgetpassword =
       AppRouter(name: "/forgetpassword", path: "/forgetpassword");
   static AppRouter newpassword =

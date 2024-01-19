@@ -10,19 +10,19 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		lD/V3Ih1XYWI3aTOx42Zygkp/58=
+		KYQqXanF07Ws+j2+91YrovxRF1k=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		BQyYnWBefiiiyX+1/cdrv8XGZWU=
+		47KywtGm1xFbXFQxODeWeicfqUc=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
-		lrFutelJQHoArlpWBxy+eIYDQHg=
+		5Vv81Q/6EEn6H/46opITqjPUR0c=
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		bAhelDXdHGy/X9T5DhK19KVYjeM=
+		cQRBBfOODfAoRFE+XvTuuIG8WWU=
 		</data>
 		<key>flutter_assets/assets/fonts/Urbanist-Bold.ttf</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		EDnb3Kb4WuAOHlNkYUocBHgM2eg=
+		ejkuIM1q4gjcf43FKH3GdjXvfR4=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -163,6 +163,18 @@
 		<key>flutter_assets/packages/fluttertoast/assets/toastify.js</key>
 		<data>
 		gPIgba2QIn/qWmLFfVogsD4MxPU=
+		</data>
+		<key>flutter_assets/packages/iconly/fonts/IconlyBold.ttf</key>
+		<data>
+		o1Aspl0BNMNuLJyGQyVafkNZ3Zs=
+		</data>
+		<key>flutter_assets/packages/iconly/fonts/IconlyBroken.ttf</key>
+		<data>
+		pK9zQhzX3aumVnWF/hPySSC7qok=
+		</data>
+		<key>flutter_assets/packages/iconly/fonts/IconlyLight.ttf</key>
+		<data>
+		rMcsMi7FhQe6LJX1EHpx3gUNjxQ=
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -179,28 +191,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aXyfywwRNGeRez2zeMvXG5vIieNbjXJX83TMwXDzv7M=
+			6ohAjlKzTBUk8leN75A7iZ5B9MjU0zMDDbrz+VPUm9s=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RJEwEg1OlFwPPX2XY1o+qK8hZ7wZfEHU0RwlYJXmGIs=
+			ZHcNyT64EiMTy28mfo8r8HyxHTxlRxNhAnOYvS1Hhuw=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P79ORyw0vj5LUaeLTvjzJEE0v3D07ukI0F2BurACnCw=
+			8NmQqnvVCj8uObULnrGRxCJIf7VzqYYG9DsyZhxtaPU=
 			</data>
 		</dict>
 		<key>flutter_assets/NOTICES.Z</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U0snl8VJzXGBFQ0wgF/o+L8zrCiUPKPspQ5W3zDqFm4=
+			skLYuVn2zgfsXeRtx0JFuRi2m9g56pjsy6a0ncqFVg4=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/fonts/Urbanist-Bold.ttf</key>
@@ -424,7 +436,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pa5CU0UAr01LpxhL+9Hb5TZTEXxhVywNYRYnCcM2AL8=
+			z5AnQnDNVUTOG9EC4wDWrKGXMpEYEvUs3v/bzKEspig=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -446,6 +458,27 @@
 			<key>hash2</key>
 			<data>
 			zYIrdfUdie9n3mKKElLvN1sxiImupJ++RP/PCwgqbb0=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/iconly/fonts/IconlyBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wNj024BziZTey82eNgIgxiQXuwGO5sfuN/v56zZ4LYg=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/iconly/fonts/IconlyBroken.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vMIBOtOxdGiTtBBlQEZ2K77YMtHVKSxO0J5ySF7u54M=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/iconly/fonts/IconlyLight.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PmcxhCanmR55WmCImiK5Sr4yyW4bpTt5XYZh9oxeVHo=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>

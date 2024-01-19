@@ -1,6 +1,7 @@
 import 'package:authentication_ui/common/common.dart';
 import 'package:authentication_ui/router/router.dart';
 import 'package:authentication_ui/screens/fade_animationtest.dart';
+import 'package:authentication_ui/screens/home_page.dart';
 import 'package:authentication_ui/widgets/custom_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -123,6 +124,11 @@ class _LoginPageState extends State<LoginPage> {
                                 flag = true;
                               });
                             }
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => HomePage()),
+                            );
                           },
                           color: Colors.black,
                         ),
