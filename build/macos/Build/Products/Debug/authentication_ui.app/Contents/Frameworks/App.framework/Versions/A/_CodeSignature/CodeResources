@@ -10,19 +10,19 @@
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.bin</key>
 		<data>
-		R6tIEtV+S0bCSomBTgh/Vz15+w4=
+		KYQqXanF07Ws+j2+91YrovxRF1k=
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.json</key>
 		<data>
-		SB7esmS/YQjV6aAQZkEs+Zv3/rA=
+		47KywtGm1xFbXFQxODeWeicfqUc=
 		</data>
 		<key>Resources/flutter_assets/FontManifest.json</key>
 		<data>
-		lrFutelJQHoArlpWBxy+eIYDQHg=
+		5Vv81Q/6EEn6H/46opITqjPUR0c=
 		</data>
 		<key>Resources/flutter_assets/NOTICES.Z</key>
 		<data>
-		bAhelDXdHGy/X9T5DhK19KVYjeM=
+		2gr9CAvHKWsSRctlmttofN059UM=
 		</data>
 		<key>Resources/flutter_assets/assets/fonts/Urbanist-Bold.ttf</key>
 		<data>
@@ -36,41 +36,9 @@
 		<data>
 		oN1EAV7OIJLQtIDNYMh8y+ky4/Q=
 		</data>
-		<key>Resources/flutter_assets/assets/images/Create%20new%20password.png</key>
-		<data>
-		kRi48J3LbyPVioU+bE1F7puGokc=
-		</data>
-		<key>Resources/flutter_assets/assets/images/Forgot%20Password_.png</key>
-		<data>
-		Rb91OdnWZQWiZ56rCP4OePXbRjc=
-		</data>
-		<key>Resources/flutter_assets/assets/images/Login%20&amp;%20Register%20App%20UI%20Kit%20(Community).png</key>
-		<data>
-		MaAj3loDaqwCDSKBP/nx0K0miuQ=
-		</data>
 		<key>Resources/flutter_assets/assets/images/Login.png</key>
 		<data>
 		nGAFmcXKTng9gvniyR5ofSYWw24=
-		</data>
-		<key>Resources/flutter_assets/assets/images/OTP%20Verification.png</key>
-		<data>
-		cfI9PZE08pEZETKMbgi7766m5o0=
-		</data>
-		<key>Resources/flutter_assets/assets/images/Password%20Changed!.png</key>
-		<data>
-		lpc3M2kU0L+uyGxB8qlfyo3SNdw=
-		</data>
-		<key>Resources/flutter_assets/assets/images/Register.png</key>
-		<data>
-		hxAtfS7AUGq2TOOxlEB8jgHX3Hw=
-		</data>
-		<key>Resources/flutter_assets/assets/images/Vector.png</key>
-		<data>
-		q8LrGLzUqVUjFRR1LhvlDu7NF8o=
-		</data>
-		<key>Resources/flutter_assets/assets/images/Welcome.png</key>
-		<data>
-		tvj/XNb/ofJHyA9ebekqDn1X/eM=
 		</data>
 		<key>Resources/flutter_assets/assets/images/back-1.png</key>
 		<data>
@@ -92,26 +60,6 @@
 		<data>
 		CS9/9nkn5N5oUfx9NvEOiDOF7js=
 		</data>
-		<key>Resources/flutter_assets/assets/images/bg1.jpeg</key>
-		<data>
-		NFboSvAgUv519nR0/cMfvIFOZ0A=
-		</data>
-		<key>Resources/flutter_assets/assets/images/bg2.jpeg</key>
-		<data>
-		FcUKUqLbLdp6c3AtwhKLb5YTzg4=
-		</data>
-		<key>Resources/flutter_assets/assets/images/facebook_ic%20(1).svg</key>
-		<data>
-		2z886Cp6M29it0IkWyFaND9+mYE=
-		</data>
-		<key>Resources/flutter_assets/assets/images/facebook_ic-1.svg</key>
-		<data>
-		2z886Cp6M29it0IkWyFaND9+mYE=
-		</data>
-		<key>Resources/flutter_assets/assets/images/facebook_ic.svg</key>
-		<data>
-		2z886Cp6M29it0IkWyFaND9+mYE=
-		</data>
 		<key>Resources/flutter_assets/assets/images/google_ic-1.svg</key>
 		<data>
 		EOvypIstRPYQpBrbYFr4DCACM4Y=
@@ -120,13 +68,9 @@
 		<data>
 		DobU6y3LLkajWtjw6DM6lGaPy04=
 		</data>
-		<key>Resources/flutter_assets/assets/images/img.png</key>
+		<key>Resources/flutter_assets/assets/images/nknu_logo_02.png</key>
 		<data>
-		07NPZXf6tn5PHxpN8u6/Ms/UrZw=
-		</data>
-		<key>Resources/flutter_assets/assets/images/main%20logo%20light%20color.png</key>
-		<data>
-		EvwPtLhjpbbXENoJ2KBtUC3+G00=
+		JYgEGgvC2GQsRDEYMesf68Y90Q4=
 		</data>
 		<key>Resources/flutter_assets/assets/images/ticker.json</key>
 		<data>
@@ -146,7 +90,7 @@
 		</data>
 		<key>Resources/flutter_assets/kernel_blob.bin</key>
 		<data>
-		+cqANnjJukU2n2c979DcLcoqRPk=
+		NNsHtvCaMwesHUVHHjmClGVVbpg=
 		</data>
 		<key>Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -159,6 +103,18 @@
 		<key>Resources/flutter_assets/packages/fluttertoast/assets/toastify.js</key>
 		<data>
 		gPIgba2QIn/qWmLFfVogsD4MxPU=
+		</data>
+		<key>Resources/flutter_assets/packages/iconly/fonts/IconlyBold.ttf</key>
+		<data>
+		o1Aspl0BNMNuLJyGQyVafkNZ3Zs=
+		</data>
+		<key>Resources/flutter_assets/packages/iconly/fonts/IconlyBroken.ttf</key>
+		<data>
+		pK9zQhzX3aumVnWF/hPySSC7qok=
+		</data>
+		<key>Resources/flutter_assets/packages/iconly/fonts/IconlyLight.ttf</key>
+		<data>
+		rMcsMi7FhQe6LJX1EHpx3gUNjxQ=
 		</data>
 		<key>Resources/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -182,28 +138,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			stzZoG68zroja57gsp8nHHE95UU5mM7zFZPr6imjWbo=
+			6ohAjlKzTBUk8leN75A7iZ5B9MjU0zMDDbrz+VPUm9s=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jx0tmurSOpeGnt2IgQb+xXuqZn8KN5fEhJkxtxVDURE=
+			ZHcNyT64EiMTy28mfo8r8HyxHTxlRxNhAnOYvS1Hhuw=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P79ORyw0vj5LUaeLTvjzJEE0v3D07ukI0F2BurACnCw=
+			8NmQqnvVCj8uObULnrGRxCJIf7VzqYYG9DsyZhxtaPU=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/NOTICES.Z</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U0snl8VJzXGBFQ0wgF/o+L8zrCiUPKPspQ5W3zDqFm4=
+			/egjl7zh5Af7PXOMKJUQhSSM/PEVDJy3INvfjtKECdc=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/assets/fonts/Urbanist-Bold.ttf</key>
@@ -227,67 +183,11 @@
 			42tOHkUKQraGs7YuaU/KLnWeFWiPY4yuCyb5iMC6TJ8=
 			</data>
 		</dict>
-		<key>Resources/flutter_assets/assets/images/Create%20new%20password.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wns07MQw0Fc84GgC3ovnWj4B130XDm1gHy2eKQ6EOuU=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/Forgot%20Password_.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Yc/zvEIOm8hVu4MBowaqI8V4Nytzke9uyk3Lycr82Wo=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/Login%20&amp;%20Register%20App%20UI%20Kit%20(Community).png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fv25hl1usRmSdvgVuC+Tlc18zHTtyhp8Bw7ZdhXhYI4=
-			</data>
-		</dict>
 		<key>Resources/flutter_assets/assets/images/Login.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Q+nvR2w/JHVqwKUQNUc2iKO1y9/tvh3KemGVVKU46p4=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/OTP%20Verification.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R+WnkyQjXuj8+vNV92DgLo30MRQgxD1qoMBi7AyRZrA=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/Password%20Changed!.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2I5/ztR5VoYRSFLVyR94uvM1WcX9fv4oQuXjNcOzjIA=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/Register.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cYLEd4kIMewt8ibXlUXnuET0OT9Z3SocEdbUSutbyzs=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/Vector.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gIKicRdRkXGYgajJSLGuoRx1MqCXobWQgevxHggzgA8=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/Welcome.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YBDbKGGA4FhlaVfMyiWipEbtAC9wyMgEZb5ZwoRGmd8=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/assets/images/back-1.png</key>
@@ -325,41 +225,6 @@
 			uxnwKpBJ+sxa6NRxxYYdys4ZJrkkU+uipmRIidYeeYI=
 			</data>
 		</dict>
-		<key>Resources/flutter_assets/assets/images/bg1.jpeg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UI+iZ3FMLS4olbfvnh4A9Hu29+OjED+e5mwpOZI851k=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/bg2.jpeg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FGtcIiftnNc1eFQBwUdYNI0UCHc+b5VAb200LtkwNKQ=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/facebook_ic%20(1).svg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CffyMoSmsBy8kkx4A3bhzKvjz0u+msuTJoEuPPA3pyo=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/facebook_ic-1.svg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CffyMoSmsBy8kkx4A3bhzKvjz0u+msuTJoEuPPA3pyo=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/facebook_ic.svg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CffyMoSmsBy8kkx4A3bhzKvjz0u+msuTJoEuPPA3pyo=
-			</data>
-		</dict>
 		<key>Resources/flutter_assets/assets/images/google_ic-1.svg</key>
 		<dict>
 			<key>hash2</key>
@@ -374,18 +239,11 @@
 			KR+PZ7Fdi23q7c4SQQu9oxrRTT6swwLoJB6omJcS3V0=
 			</data>
 		</dict>
-		<key>Resources/flutter_assets/assets/images/img.png</key>
+		<key>Resources/flutter_assets/assets/images/nknu_logo_02.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MuD+W2YZJcR26X1XMh70/x6tGXKVM4Qo+FPB1Vq1k8I=
-			</data>
-		</dict>
-		<key>Resources/flutter_assets/assets/images/main%20logo%20light%20color.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5c80+vNjcQ/sKuaqtNdt0UXRKUey9u8t7Qvz7NDIxuw=
+			9b3ogbdRK36cFMiP6d3ODJJRUCcEasVB2qP7rxGz94Y=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/assets/images/ticker.json</key>
@@ -420,7 +278,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sfqgt1ZmVrGYb3ZIecEVgY89i6dl5XcycfJ6Dbmyu7w=
+			bn1HNgQheXPsmfTQJLs1Oo6FH17YOQOFlfOYysGzEq8=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -442,6 +300,27 @@
 			<key>hash2</key>
 			<data>
 			zYIrdfUdie9n3mKKElLvN1sxiImupJ++RP/PCwgqbb0=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/packages/iconly/fonts/IconlyBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wNj024BziZTey82eNgIgxiQXuwGO5sfuN/v56zZ4LYg=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/packages/iconly/fonts/IconlyBroken.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vMIBOtOxdGiTtBBlQEZ2K77YMtHVKSxO0J5ySF7u54M=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/packages/iconly/fonts/IconlyLight.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PmcxhCanmR55WmCImiK5Sr4yyW4bpTt5XYZh9oxeVHo=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/shaders/ink_sparkle.frag</key>

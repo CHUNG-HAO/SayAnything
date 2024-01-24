@@ -8,7 +8,7 @@ PODS:
     - FlutterMacOS
   - smart_auth (0.0.1):
     - Flutter
-  - Toast (4.0.0)
+  - Toast (4.1.0)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -35,7 +35,7 @@ SPEC CHECKSUMS:
   fluttertoast: 31b00dabfa7fb7bacd9e7dbee580d7a2ff4bf265
   path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
   smart_auth: 4bedbc118723912d0e45a07e8ab34039c19e04f2
-  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  Toast: ec33c32b8688982cecc6348adeae667c1b9938da
 
 PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
 

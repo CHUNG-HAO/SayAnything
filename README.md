@@ -31,3 +31,7 @@ open -a Simulator
 ```
 flutter run
 ```
+
+### RF
+
+> https://pub.dev/packages/curved_navigation_bar

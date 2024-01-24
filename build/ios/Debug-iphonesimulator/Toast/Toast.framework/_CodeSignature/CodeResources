@@ -10,29 +10,29 @@
 		</data>
 		<key>Headers/Toast.h</key>
 		<data>
-		X4YL5vNO6jjNsgUlRwJe9sMUjnM=
+		msRUJexBO564ClnwN1nTvOmha6Y=
 		</data>
 		<key>Headers/UIView+Toast.h</key>
 		<data>
-		mfXmLP9J8XYssI1priECpAz4SAk=
+		UhkYjy+iPwvPw94pZEP/J0k+0bE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OAvUXJZeIUot4B9TFrBZ9knC0MQ=
+		N33U0pXKRXoXrAB9xSyc4I1vkx4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		bce4nlBX96MuqNZg6uigU6pb0CM=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		s7O0r0d6vJFCcROYSLBf8TMqEFs=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/Toast-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xoy5yQ43bcpTrCNztO2LlDXXGNI=
-			</data>
 			<key>hash2</key>
 			<data>
 			0yT8+t3Aewz9cmgUbi09SfqpWhEuvPeFsmVBDc+sA5s=
@@ -40,35 +40,30 @@
 		</dict>
 		<key>Headers/Toast.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X4YL5vNO6jjNsgUlRwJe9sMUjnM=
-			</data>
 			<key>hash2</key>
 			<data>
-			Vbdxky+YMvKTkp3HhGBfGolls03+jxdOZSWDqCI2aGA=
+			NfmZWd8QbfuXAbJkxIAI5JHkJK3i0o/BLNLOhl6is54=
 			</data>
 		</dict>
 		<key>Headers/UIView+Toast.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mfXmLP9J8XYssI1priECpAz4SAk=
-			</data>
 			<key>hash2</key>
 			<data>
-			BHqQsY+IyXJJ2Qo0Y/RBtlCwZFtlkHTE8n85lErDhm4=
+			nh/XJ7axo5iGzio+3wBER8ZJAAUYxmmldHlrj7Y6oQs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bce4nlBX96MuqNZg6uigU6pb0CM=
-			</data>
 			<key>hash2</key>
 			<data>
 			XvudiIMTN1g6Ey8SsuZBIW3/CLVjLCAlyn92TYt/jf8=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dvMMADsfOLu5EVzPdOPenetakOfEpnBaa14Xz2QIbJM=
 			</data>
 		</dict>
 	</dict>

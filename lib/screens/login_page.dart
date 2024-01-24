@@ -1,7 +1,7 @@
 import 'package:authentication_ui/common/common.dart';
 import 'package:authentication_ui/router/router.dart';
 import 'package:authentication_ui/screens/fade_animationtest.dart';
-import 'package:authentication_ui/screens/home_page.dart';
+import 'package:authentication_ui/screens/Main_page.dart';
 import 'package:authentication_ui/widgets/custom_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -20,14 +20,15 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE8ECF4),
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(10.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
+  backgroundColor: const Color(0xFFE8ECF4),
+  body: SafeArea(
+    child: Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: SingleChildScrollView(  // Add this
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
               FadeInAnimation(
                 delay: 1,
                 child: IconButton(
@@ -127,7 +128,7 @@ class _LoginPageState extends State<LoginPage> {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => HomePage()),
+                                  builder: (context) => MainPage(initialIndex: 2)),
                             );
                           },
                           color: Colors.black,
@@ -158,50 +159,27 @@ class _LoginPageState extends State<LoginPage> {
                         height: 20,
                       ),
                       FadeInAnimation(
-                        delay: 2.4,
-                        child: Padding(
-                          padding: const EdgeInsets.only(
-                              top: 10, bottom: 10, right: 30, left: 30),
-                          child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              SvgPicture.asset("assets/images/google_ic-1.svg"),
-                            ],
-                          ),
+                      delay: 2.4,
+                      child: Padding(
+                        padding: const EdgeInsets.only(
+                            top: 10, bottom: 10, right: 30, left: 30),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,  // Change this line
+                          mainAxisAlignment: MainAxisAlignment.center,  // Change this line
+                          children: [
+                            SvgPicture.asset("assets/images/google_ic-1.svg"),
+                          ],
                         ),
                       ),
+                    ),
                     ],
                   ),
                 ),
               ),
-              FadeInAnimation(
-                delay: 2.8,
-                child: Padding(
-                  padding: const EdgeInsets.only(left: 50),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Text(
-                        "Don’t have an account?",
-                        style: Common().hinttext,
-                      ),
-                      TextButton(
-                          onPressed: () {
-                            GoRouter.of(context)
-                                .pushNamed(Routers.signuppage.name);
-                          },
-                          child: Text(
-                            "Register Now",
-                            style: Common().mediumTheme,
-                          )),
-                    ],
-                  ),
-                ),
-              )
             ],
           ),
         ),
+      ),
       ),
     );
   }

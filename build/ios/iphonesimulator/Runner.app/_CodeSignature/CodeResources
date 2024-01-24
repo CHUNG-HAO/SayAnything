@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		saGwUHvWqFXc0/JSQSGW8XMp4V0=
+		qIVlcCPkg6kWy0HX1FY4TRPjneo=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		tbHPcGJDhOVRjhNDfaL8GJeXpWs=
+		GrlYSP0i1QYOJKf9WTcY4mSuBx4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		cQRBBfOODfAoRFE+XvTuuIG8WWU=
+		2gr9CAvHKWsSRctlmttofN059UM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Urbanist-Bold.ttf</key>
 		<data>
@@ -84,41 +84,9 @@
 		<data>
 		oN1EAV7OIJLQtIDNYMh8y+ky4/Q=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Create%20new%20password.png</key>
-		<data>
-		kRi48J3LbyPVioU+bE1F7puGokc=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Forgot%20Password_.png</key>
-		<data>
-		Rb91OdnWZQWiZ56rCP4OePXbRjc=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Login%20&amp;%20Register%20App%20UI%20Kit%20(Community).png</key>
-		<data>
-		MaAj3loDaqwCDSKBP/nx0K0miuQ=
-		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/Login.png</key>
 		<data>
 		nGAFmcXKTng9gvniyR5ofSYWw24=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/OTP%20Verification.png</key>
-		<data>
-		cfI9PZE08pEZETKMbgi7766m5o0=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Password%20Changed!.png</key>
-		<data>
-		lpc3M2kU0L+uyGxB8qlfyo3SNdw=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Register.png</key>
-		<data>
-		hxAtfS7AUGq2TOOxlEB8jgHX3Hw=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Vector.png</key>
-		<data>
-		q8LrGLzUqVUjFRR1LhvlDu7NF8o=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Welcome.png</key>
-		<data>
-		tvj/XNb/ofJHyA9ebekqDn1X/eM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/back-1.png</key>
 		<data>
@@ -140,26 +108,6 @@
 		<data>
 		CS9/9nkn5N5oUfx9NvEOiDOF7js=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/bg1.jpeg</key>
-		<data>
-		NFboSvAgUv519nR0/cMfvIFOZ0A=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/bg2.jpeg</key>
-		<data>
-		FcUKUqLbLdp6c3AtwhKLb5YTzg4=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/facebook_ic%20(1).svg</key>
-		<data>
-		2z886Cp6M29it0IkWyFaND9+mYE=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/facebook_ic-1.svg</key>
-		<data>
-		2z886Cp6M29it0IkWyFaND9+mYE=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/facebook_ic.svg</key>
-		<data>
-		2z886Cp6M29it0IkWyFaND9+mYE=
-		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/google_ic-1.svg</key>
 		<data>
 		EOvypIstRPYQpBrbYFr4DCACM4Y=
@@ -167,14 +115,6 @@
 		<key>Frameworks/App.framework/flutter_assets/assets/images/google_ic.svg</key>
 		<data>
 		DobU6y3LLkajWtjw6DM6lGaPy04=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/img.png</key>
-		<data>
-		07NPZXf6tn5PHxpN8u6/Ms/UrZw=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/main%20logo%20light%20color.png</key>
-		<data>
-		EvwPtLhjpbbXENoJ2KBtUC3+G00=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/nknu_logo_02.png</key>
 		<data>
@@ -198,7 +138,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		ejkuIM1q4gjcf43FKH3GdjXvfR4=
+		agUPB2zH8cda2CTL7L8XqT7a1NU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -318,15 +258,19 @@
 		</data>
 		<key>Frameworks/Toast.framework/Info.plist</key>
 		<data>
-		OAvUXJZeIUot4B9TFrBZ9knC0MQ=
+		N33U0pXKRXoXrAB9xSyc4I1vkx4=
+		</data>
+		<key>Frameworks/Toast.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		s7O0r0d6vJFCcROYSLBf8TMqEFs=
 		</data>
 		<key>Frameworks/Toast.framework/Toast</key>
 		<data>
-		l7hik+6hm1Kg52/DzgQL6z1Few0=
+		BrizLtNY2CJjISoNriBUm9YsR/Y=
 		</data>
 		<key>Frameworks/Toast.framework/_CodeSignature/CodeResources</key>
 		<data>
-		k/cgwwna8X88dXUZQdSd6Jk7VRg=
+		P/8iN6Nq4hCoCy1pkLM6nVbmNlg=
 		</data>
 		<key>Frameworks/fluttertoast.framework/Info.plist</key>
 		<data>
@@ -457,7 +401,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wn/YXoEdZIL4z3LxNLUQn8WKnj39RCSLny4cmmfIcag=
+			LbT54PrwVidjK4E50gOgil/sF4/850RydQKnxqNc1fc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -471,7 +415,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rHgCFt6tCVMqK77blo7jWMxf8T4VMFDQA46PdLHP8OY=
+			PSV+g0x+QZD5J/2Pyp6b1TT+m1IICZqqr0tyLZq8vV4=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -499,7 +443,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			skLYuVn2zgfsXeRtx0JFuRi2m9g56pjsy6a0ncqFVg4=
+			/egjl7zh5Af7PXOMKJUQhSSM/PEVDJy3INvfjtKECdc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Urbanist-Bold.ttf</key>
@@ -523,67 +467,11 @@
 			42tOHkUKQraGs7YuaU/KLnWeFWiPY4yuCyb5iMC6TJ8=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Create%20new%20password.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wns07MQw0Fc84GgC3ovnWj4B130XDm1gHy2eKQ6EOuU=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Forgot%20Password_.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Yc/zvEIOm8hVu4MBowaqI8V4Nytzke9uyk3Lycr82Wo=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Login%20&amp;%20Register%20App%20UI%20Kit%20(Community).png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fv25hl1usRmSdvgVuC+Tlc18zHTtyhp8Bw7ZdhXhYI4=
-			</data>
-		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/Login.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Q+nvR2w/JHVqwKUQNUc2iKO1y9/tvh3KemGVVKU46p4=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/OTP%20Verification.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R+WnkyQjXuj8+vNV92DgLo30MRQgxD1qoMBi7AyRZrA=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Password%20Changed!.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2I5/ztR5VoYRSFLVyR94uvM1WcX9fv4oQuXjNcOzjIA=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Register.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cYLEd4kIMewt8ibXlUXnuET0OT9Z3SocEdbUSutbyzs=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Vector.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gIKicRdRkXGYgajJSLGuoRx1MqCXobWQgevxHggzgA8=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/Welcome.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YBDbKGGA4FhlaVfMyiWipEbtAC9wyMgEZb5ZwoRGmd8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/back-1.png</key>
@@ -621,41 +509,6 @@
 			uxnwKpBJ+sxa6NRxxYYdys4ZJrkkU+uipmRIidYeeYI=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/bg1.jpeg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UI+iZ3FMLS4olbfvnh4A9Hu29+OjED+e5mwpOZI851k=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/bg2.jpeg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FGtcIiftnNc1eFQBwUdYNI0UCHc+b5VAb200LtkwNKQ=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/facebook_ic%20(1).svg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CffyMoSmsBy8kkx4A3bhzKvjz0u+msuTJoEuPPA3pyo=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/facebook_ic-1.svg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CffyMoSmsBy8kkx4A3bhzKvjz0u+msuTJoEuPPA3pyo=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/facebook_ic.svg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CffyMoSmsBy8kkx4A3bhzKvjz0u+msuTJoEuPPA3pyo=
-			</data>
-		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/google_ic-1.svg</key>
 		<dict>
 			<key>hash2</key>
@@ -668,20 +521,6 @@
 			<key>hash2</key>
 			<data>
 			KR+PZ7Fdi23q7c4SQQu9oxrRTT6swwLoJB6omJcS3V0=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/img.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MuD+W2YZJcR26X1XMh70/x6tGXKVM4Qo+FPB1Vq1k8I=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/main%20logo%20light%20color.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5c80+vNjcQ/sKuaqtNdt0UXRKUey9u8t7Qvz7NDIxuw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/nknu_logo_02.png</key>
@@ -723,7 +562,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z5AnQnDNVUTOG9EC4wDWrKGXMpEYEvUs3v/bzKEspig=
+			gRBt+EacTdc1zZ9UZom+8SYyyXQklT8PIeVts5ksKRQ=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -933,21 +772,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ijA/1orfudsKcECGhA58pc4U9dLQq+eLFAsrNIalOsM=
+			Iil25TvCa6/xcD8l4w6U5HRlkCgUQNDz8XiYv3zT12o=
+			</data>
+		</dict>
+		<key>Frameworks/Toast.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dvMMADsfOLu5EVzPdOPenetakOfEpnBaa14Xz2QIbJM=
 			</data>
 		</dict>
 		<key>Frameworks/Toast.framework/Toast</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QrrNtIpQeLO2AnNOZ8AGfl9E7QBALxwmyjw+S7WwNJM=
+			gfGtpItUCvIXurKwLSuPmghbZ84jqSzbBsRBAVR6alk=
 			</data>
 		</dict>
 		<key>Frameworks/Toast.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wzn+bWM04KrYm40EUS53clAiA3deuy271lT0qLTWYuM=
+			604m2RizDsW7vmVtFfOQ3XiQ6joJj53BPlD3X0WLgjo=
 			</data>
 		</dict>
 		<key>Frameworks/fluttertoast.framework/Info.plist</key>

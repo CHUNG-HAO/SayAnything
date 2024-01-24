@@ -17,13 +17,14 @@ class _SignupPageState extends State<SignupPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromRGBO(232, 236, 244, 1),
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(10.0),
+    backgroundColor: const Color(0xFFE8ECF4),
+    body: SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            // mainAxisAlignment: MainAxisAlignment.spaceBetween,  // Remove this line
             children: [
               FadeInAnimation(
                 delay: 0.6,
@@ -139,48 +140,28 @@ class _SignupPageState extends State<SignupPage> {
                         height: 20,
                       ),
                       FadeInAnimation(
-                        delay: 3.2,
-                        child: Padding(
-                          padding: const EdgeInsets.only(
-                              top: 10, bottom: 10, right: 30, left: 30),
-                          child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              SvgPicture.asset("assets/images/google_ic-1.svg"),
-                            ],
-                          ),
+                      delay: 3.2,
+                      child: Padding(
+                        padding: const EdgeInsets.only(
+                            top: 10, bottom: 10, right: 30, left: 30),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,  // Change this line
+                          children: [
+                            SvgPicture.asset("assets/images/google_ic-1.svg"),
+                          ],
                         ),
                       ),
+                    ),
                     ],
                   ),
                 ),
               ),
-              FadeInAnimation(
-                delay: 3.6,
-                child: Padding(
-                  padding: const EdgeInsets.only(left: 50),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Text(
-                        "Don’t have an account?",
-                        style: Common().hinttext,
-                      ),
-                      TextButton(
-                          onPressed: () {},
-                          child: Text(
-                            "Register Now",
-                            style: Common().mediumTheme,
-                          )),
-                    ],
-                  ),
-                ),
-              )
             ],
           ),
         ),
       ),
+    ),
     );
   }
 }
