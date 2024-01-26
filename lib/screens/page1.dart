@@ -4,11 +4,26 @@ class Page1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Page 1'),
-      ),
-      body: Center(
-        child: Text('Page 1'),
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [Color(0xFFDECFE2), Color(0xFF7EC4CF)],
+          ),
+        ),
+        child: Column(
+          children: [
+            AppBar(
+              title: Text('1'),
+              backgroundColor: Colors.transparent, // Make the AppBar transparent
+              elevation: 0, // Remove shadow
+            ),
+            Center(
+              // Your body here
+            ),
+          ],
+        ),
       ),
     );
   }

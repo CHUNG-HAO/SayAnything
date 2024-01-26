@@ -9,7 +9,7 @@ class Common {
       fontSize: 30,
       fontFamily: "Urbanist",
       fontWeight: FontWeight.bold,
-      color: Colors.black);
+      color: Color(0xFF7EC4CF));
   TextStyle mediumTheme = const TextStyle(
       fontSize: 15,
       fontFamily: "Urbanist-Bold",

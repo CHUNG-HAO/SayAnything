@@ -17,7 +17,7 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE8ECF4),
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(10.0),
@@ -90,7 +90,7 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                             GoRouter.of(context)
                                 .pushNamed(Routers.passwordchanges.name);
                           },
-                          color: Colors.black,
+                          color: Color(0xFF7EC4CF),
                         ),
                       ),
                     ],

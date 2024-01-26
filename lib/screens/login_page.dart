@@ -20,7 +20,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-  backgroundColor: const Color(0xFFE8ECF4),
+  backgroundColor: const Color.fromARGB(255, 255, 255, 255),
   body: SafeArea(
     child: Padding(
       padding: const EdgeInsets.all(10.0),
@@ -131,7 +131,7 @@ class _LoginPageState extends State<LoginPage> {
                                   builder: (context) => MainPage(initialIndex: 2)),
                             );
                           },
-                          color: Colors.black,
+                          color: Color(0xFF7EC4CF),
                         ),
                       ),
                     ],

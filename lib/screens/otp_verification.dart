@@ -42,7 +42,7 @@ class _OtpVerificationPageState extends State<OtpVerificationPage> {
     );
 
     return Scaffold(
-      backgroundColor: const Color(0xFFE8ECF4),
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(10.0),
@@ -115,7 +115,7 @@ class _OtpVerificationPageState extends State<OtpVerificationPage> {
                             GoRouter.of(context)
                                 .pushNamed(Routers.newpassword.name);
                           },
-                          color: Colors.black,
+                          color: Color(0xFF7EC4CF),
                         ),
                       ),
                     ],

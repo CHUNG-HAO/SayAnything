@@ -4,7 +4,6 @@ import 'package:authentication_ui/screens/fade_animationtest.dart';
 import 'package:authentication_ui/widgets/custom_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
 
 class ForgetPasswordPage extends StatefulWidget {
@@ -18,7 +17,7 @@ class _ForgetPasswordPageState extends State<ForgetPasswordPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE8ECF4),
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(10.0),
@@ -81,7 +80,7 @@ class _ForgetPasswordPageState extends State<ForgetPasswordPage> {
                             GoRouter.of(context)
                                 .pushNamed(Routers.otpverification.name);
                           },
-                          color: Colors.black,
+                          color: Color(0xFF7EC4CF),
                         ),
                       ),
                     ],

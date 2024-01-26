@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		qIVlcCPkg6kWy0HX1FY4TRPjneo=
+		2LyHvYK9QOYKMkhHxn7aHmlrIB0=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		GrlYSP0i1QYOJKf9WTcY4mSuBx4=
+		F/IqeBasjo6EKkL300A/hsXpfzc=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		KYQqXanF07Ws+j2+91YrovxRF1k=
+		qHpgxIgh7Wz2kpnapc0GQ5LUbrg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		47KywtGm1xFbXFQxODeWeicfqUc=
+		A09gkVcJQSXBD59uaPxo3M27vgM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -116,6 +116,10 @@
 		<data>
 		DobU6y3LLkajWtjw6DM6lGaPy04=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/logo.png</key>
+		<data>
+		y6aH+jDfejFAp5x5RG/pfRQEDYw=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/nknu_logo_02.png</key>
 		<data>
 		JYgEGgvC2GQsRDEYMesf68Y90Q4=
@@ -138,7 +142,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		agUPB2zH8cda2CTL7L8XqT7a1NU=
+		GqaYpqmL+c56QAvo3LMhflmCRIQ=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -401,7 +405,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LbT54PrwVidjK4E50gOgil/sF4/850RydQKnxqNc1fc=
+			Tha3aqbPPSlwYAr2zwG0N9pY/9PjKmAnbAIMuYiqNYQ=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -415,21 +419,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PSV+g0x+QZD5J/2Pyp6b1TT+m1IICZqqr0tyLZq8vV4=
+			GuSCQVxrAatsW7Unf/uvgEmXtHk0jSXwqdaCcnqf1YM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ohAjlKzTBUk8leN75A7iZ5B9MjU0zMDDbrz+VPUm9s=
+			1xgibZdsDiFtGCCrCn9U77I8lZ6fDVo19XjOjTI3kC0=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZHcNyT64EiMTy28mfo8r8HyxHTxlRxNhAnOYvS1Hhuw=
+			XZgXdpRkl9FYVWRdWY1fea7jzJpGFk7FrkZqC0TAtHs=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -523,6 +527,13 @@
 			KR+PZ7Fdi23q7c4SQQu9oxrRTT6swwLoJB6omJcS3V0=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iocG/Zn431AWayP5OC1OMq0iaQ2mkWMOa8+9oDs7+Pk=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/nknu_logo_02.png</key>
 		<dict>
 			<key>hash2</key>
@@ -562,7 +573,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gRBt+EacTdc1zZ9UZom+8SYyyXQklT8PIeVts5ksKRQ=
+			oQ+SK3e7sOkS+/HitXiOd7BBnZyi9kC1TYfLEyqcJh4=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
