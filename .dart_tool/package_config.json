@@ -128,6 +128,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "font_awesome_flutter",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/font_awesome_flutter-10.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "go_router",
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/go_router-13.0.1",
       "packageUri": "lib/",
@@ -404,7 +410,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-01-26T09:08:06.670316Z",
+  "generated": "2024-01-27T13:30:30.941957Z",
   "generator": "pub",
   "generatorVersion": "3.2.4"
 }

@@ -16,11 +16,12 @@ class Page1 extends StatelessWidget {
           children: [
             AppBar(
               title: Text('1'),
-              backgroundColor: Colors.transparent, // Make the AppBar transparent
-              elevation: 0, // Remove shadow
+              backgroundColor: Colors.transparent,
+              elevation: 0, 
+              automaticallyImplyLeading: false,
             ),
             Center(
-              // Your body here
+              
             ),
           ],
         ),

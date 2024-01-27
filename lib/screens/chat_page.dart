@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Page3 extends StatelessWidget {
+class Chat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,11 +16,12 @@ class Page3 extends StatelessWidget {
           children: [
             AppBar(
               title: Text('Chat'),
-              backgroundColor: Colors.transparent, // Make the AppBar transparent
-              elevation: 0, // Remove shadow
+              backgroundColor: Colors.transparent, 
+              elevation: 0, 
+              automaticallyImplyLeading: false,
             ),
             Center(
-              // Your body here
+            
             ),
           ],
         ),

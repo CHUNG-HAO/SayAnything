@@ -24,7 +24,6 @@ class _SignupPageState extends State<SignupPage> {
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            // mainAxisAlignment: MainAxisAlignment.spaceBetween,  // Remove this line
             children: [
               FadeInAnimation(
                 delay: 0.6,
@@ -71,6 +70,24 @@ class _SignupPageState extends State<SignupPage> {
                           obsecuretext: false,
                         ),
                       ),
+                      const SizedBox(
+                        height: 10,
+                      ),
+                      FadeInAnimation(
+                      delay: 2.1,
+                      child: DropdownButtonFormField<String>(
+                        decoration: InputDecoration(
+                          labelText: 'Gender',
+                        ),
+                        items: <String>['Male', 'Female'].map((String value) {
+                          return DropdownMenuItem<String>(
+                            value: value,
+                            child: Text(value),
+                          );
+                        }).toList(),
+                        onChanged: (_) {},
+                      ),
+                    ),
                       const SizedBox(
                         height: 10,
                       ),
@@ -146,7 +163,7 @@ class _SignupPageState extends State<SignupPage> {
                             top: 10, bottom: 10, right: 30, left: 30),
                         child: Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.center,  // Change this line
+                          mainAxisAlignment: MainAxisAlignment.center, 
                           children: [
                             SvgPicture.asset("assets/images/google_ic-1.svg"),
                           ],

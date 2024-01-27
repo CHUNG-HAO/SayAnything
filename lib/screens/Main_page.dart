@@ -6,6 +6,7 @@ import 'package:authentication_ui/screens/chat_page.dart';
 import 'package:authentication_ui/screens/profile_page.dart';
 import 'package:authentication_ui/screens/home.dart';
 
+
 class MainPage extends StatefulWidget {
   final int initialIndex;
 
@@ -16,51 +17,52 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  late PageController _pageController = PageController(initialPage: widget.initialIndex);
   int _selectedIndex = 0;
   final List<Widget> _widgetOptions = <Widget>[
     Page1(),
     Page2(),
     HomePage(),
-    Page3(),
-    Page4(),
+    Chat(),
+    Profile(),
   ];
 
-  // Create a color list for the icons
   List<Color> _iconColors = List.generate(5, (index) => Color(0xFFDECFE2));
 
   @override
   void initState() {
     super.initState();
+    _pageController = PageController(initialPage: widget.initialIndex);
     Future.delayed(Duration.zero, () {
       setState(() {
         _selectedIndex = widget.initialIndex;
-        _iconColors[_selectedIndex] = Color(0xFF7EC4CF);  // Set the initial selected icon color
+        _iconColors[_selectedIndex] = Color(0xFF7EC4CF);  
       });
     });
   }
 
   void _onItemTapped(int index) {
     setState(() {
-      _iconColors[_selectedIndex] = Color(0xFFDECFE2);  // Reset the previous selected icon color
+      _iconColors[_selectedIndex] = Color(0xFFDECFE2);  
       _selectedIndex = index;
-      _iconColors[_selectedIndex] = Color(0xFF7EC4CF);  // Set the new selected icon color
+      _iconColors[_selectedIndex] = Color(0xFF7EC4CF);  
     });
+    _pageController.jumpToPage(index);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: <Widget>[
-          Expanded(
-            child: ClipPath(
-              child: IndexedStack(
-                index: _selectedIndex,
-                children: _widgetOptions,
-        ),
-      ),
-          ),
-        ],
+      body: PageView(
+        controller: _pageController,
+        onPageChanged: (index) {
+          setState(() {
+            _iconColors[_selectedIndex] = Color(0xFFDECFE2);  
+            _selectedIndex = index;
+            _iconColors[_selectedIndex] = Color(0xFF7EC4CF);  
+          });
+        },
+        children: _widgetOptions,
       ),
       bottomNavigationBar: CurvedNavigationBar(
         index: _selectedIndex,
@@ -68,7 +70,7 @@ class _MainPageState extends State<MainPage> {
         backgroundColor: Color(0xFF7EC4CF),
         items: <Widget>[
           Icon(Icons.volunteer_activism, size: 30, color: _iconColors[0]),
-          Icon(Icons.explore, size: 30, color: _iconColors[1]),
+          Icon(Icons.search, size: 30, color: _iconColors[1]),
           Icon(Icons.home, size: 30, color: _iconColors[2]),
           Icon(Icons.wechat, size: 30, color: _iconColors[3]),
           ShaderMask(

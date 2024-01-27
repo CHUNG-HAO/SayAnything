@@ -5,7 +5,6 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 
 class CustomTextFormField extends StatefulWidget {
   final String hinttext;
@@ -100,10 +99,8 @@ class _CustomElevatedButtonState extends State<CustomElevatedButton> {
         setState(() {
           loading = true;
         });
-        if (widget.function != null) {
-          await widget.function!();
-        }
-
+        await widget.function();
+      
         setState(() {
           loading = false;
         });

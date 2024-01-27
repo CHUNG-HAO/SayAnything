@@ -16,11 +16,11 @@ class HomePage extends StatelessWidget {
           children: [
             AppBar(
               title: Text('Pair'),
-              backgroundColor: Colors.transparent, // Make the AppBar transparent
-              elevation: 0, // Remove shadow
+              backgroundColor: Colors.transparent,
+              elevation: 0,
             ),
             Center(
-              // Your body here
+         
             ),
           ],
         ),

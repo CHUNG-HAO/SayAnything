@@ -10,11 +10,11 @@
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.bin</key>
 		<data>
-		KYQqXanF07Ws+j2+91YrovxRF1k=
+		qHpgxIgh7Wz2kpnapc0GQ5LUbrg=
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.json</key>
 		<data>
-		47KywtGm1xFbXFQxODeWeicfqUc=
+		A09gkVcJQSXBD59uaPxo3M27vgM=
 		</data>
 		<key>Resources/flutter_assets/FontManifest.json</key>
 		<data>
@@ -68,6 +68,10 @@
 		<data>
 		DobU6y3LLkajWtjw6DM6lGaPy04=
 		</data>
+		<key>Resources/flutter_assets/assets/images/logo.png</key>
+		<data>
+		y6aH+jDfejFAp5x5RG/pfRQEDYw=
+		</data>
 		<key>Resources/flutter_assets/assets/images/nknu_logo_02.png</key>
 		<data>
 		JYgEGgvC2GQsRDEYMesf68Y90Q4=
@@ -90,7 +94,7 @@
 		</data>
 		<key>Resources/flutter_assets/kernel_blob.bin</key>
 		<data>
-		NNsHtvCaMwesHUVHHjmClGVVbpg=
+		BwXNSfvc9xJVqQnTtzbJzrOqTKg=
 		</data>
 		<key>Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -138,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ohAjlKzTBUk8leN75A7iZ5B9MjU0zMDDbrz+VPUm9s=
+			1xgibZdsDiFtGCCrCn9U77I8lZ6fDVo19XjOjTI3kC0=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZHcNyT64EiMTy28mfo8r8HyxHTxlRxNhAnOYvS1Hhuw=
+			XZgXdpRkl9FYVWRdWY1fea7jzJpGFk7FrkZqC0TAtHs=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/FontManifest.json</key>
@@ -239,6 +243,13 @@
 			KR+PZ7Fdi23q7c4SQQu9oxrRTT6swwLoJB6omJcS3V0=
 			</data>
 		</dict>
+		<key>Resources/flutter_assets/assets/images/logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iocG/Zn431AWayP5OC1OMq0iaQ2mkWMOa8+9oDs7+Pk=
+			</data>
+		</dict>
 		<key>Resources/flutter_assets/assets/images/nknu_logo_02.png</key>
 		<dict>
 			<key>hash2</key>
@@ -278,7 +289,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bn1HNgQheXPsmfTQJLs1Oo6FH17YOQOFlfOYysGzEq8=
+			m+T47illQ9ihY0c5WJi9ytDmO18+acenqAtqv6yqrZ0=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
