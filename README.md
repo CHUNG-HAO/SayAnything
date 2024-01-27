@@ -35,3 +35,6 @@ flutter run
 ### RF
 
 > https://pub.dev/packages/curved_navigation_bar
+> https://api.flutter.dev/flutter/material/material-library.html
+> https://api.flutter.dev/flutter/widgets/widgets-library.html
+> https://api.flutter.dev/flutter/dart-ui/Color-class.html
