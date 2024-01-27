@@ -31,6 +31,9 @@ open -a Simulator
 ```
 flutter run
 ```
+```
+ sudo rm -R ~/Library/Developer/CoreSimulator/Caches
+```
 
 ### RF
 
