@@ -91,6 +91,7 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                                 .pushNamed(Routers.passwordchanges.name);
                           },
                           color: Color(0xFF7EC4CF),
+                          
                         ),
                       ),
                     ],

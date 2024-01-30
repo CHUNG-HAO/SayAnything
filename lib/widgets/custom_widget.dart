@@ -83,7 +83,7 @@ class CustomElevatedButton extends StatefulWidget {
     Key? key,
     required this.message,
     required this.function,
-    this.color = Colors.white,
+    this.color,
   }) : super(key: key);
 
   @override

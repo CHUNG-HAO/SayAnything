@@ -116,6 +116,7 @@ class _OtpVerificationPageState extends State<OtpVerificationPage> {
                                 .pushNamed(Routers.newpassword.name);
                           },
                           color: Color(0xFF7EC4CF),
+                          
                         ),
                       ),
                     ],

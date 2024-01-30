@@ -81,6 +81,7 @@ class _ForgetPasswordPageState extends State<ForgetPasswordPage> {
                                 .pushNamed(Routers.otpverification.name);
                           },
                           color: Color(0xFF7EC4CF),
+                          
                         ),
                       ),
                     ],

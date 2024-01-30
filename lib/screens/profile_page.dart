@@ -1,39 +1,28 @@
+import 'dart:async';
+
 import 'package:authentication_ui/screens/fade_animationtest.dart';
+import 'package:authentication_ui/screens/login_page.dart';
 import 'package:authentication_ui/widgets/custom_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:authentication_ui/screens/authentication_ui.dart';
+import 'package:authentication_ui/screens/edit_description.dart';
+
+
+import 'package:authentication_ui/screens/edit_name.dart';
+
+import '../services/user.dart';
+import '../services/user_data.dart';
+
 
 class Profile extends StatefulWidget {
   @override
-  _Page4State createState() => _Page4State();
+  _ProfilePageState createState() => _ProfilePageState();
 }
 
-class _Page4State extends State<Profile> with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-
-  bool _isEditing = false;
-  final _nameController = TextEditingController();
-  final _mailController = TextEditingController();
-  final _genderController = TextEditingController();
-  final _bioController = TextEditingController();
-
-  @override
-  void initState() {
-    super.initState();
-    _controller = AnimationController(
-      duration: const Duration(seconds: 2),
-      vsync: this,
-    )..forward();
-
-
-    _nameController.text = '軟體工程與管理學系鍾弘浩';
-    _mailController.text = 'xxx@mail.nknu.edu.tw';
-    _genderController.text = 'Male';
-     _bioController.text = '這裡是你的自我介紹';
-  }
-
+class _ProfilePageState extends State<Profile> {
+  
   @override
   Widget build(BuildContext context) {
+    final user = UserData.myUser;
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
@@ -47,113 +36,20 @@ class _Page4State extends State<Profile> with SingleTickerProviderStateMixin {
           children: [
             AppBar(
               title: Text('Profile'),
-              backgroundColor: Colors.transparent,
-              elevation: 0,
+              backgroundColor: Colors.transparent, 
+              elevation: 0, 
               automaticallyImplyLeading: false,
-              actions: <Widget>[
-                IconButton(
-                  icon: Icon(Icons.edit, color: Colors.white),
-                  onPressed: () {
-                    setState(() {
-                      _isEditing = !_isEditing;
-                    });
-                  },
-                ),
-              ],
             ),
-            Expanded(
-              child: Padding(
-                padding: EdgeInsets.only(top: 20, bottom: 50),
-                child: Card(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10.0),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: SingleChildScrollView(
-                      child: Column(
-                        children: <Widget>[
-                          CircleAvatar(
-                            radius: 50,
-                            backgroundColor: _genderController.text == 'Male' ? const Color.fromARGB(255, 114, 187, 246) : const Color.fromARGB(255, 248, 122, 164),
-                            child: Icon(
-                              Icons.person,
-                              size: 50, // adjust the size as needed
-                              color: Colors.white, // adjust the color as needed
-                            ),
-                          ),
-                          SizedBox(height: 10),
-                          Text('UserName', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
-                          Container(
-                            padding: EdgeInsets.symmetric(horizontal: 10),
-                            decoration: BoxDecoration(
-                              color: Colors.grey[100],
-                              borderRadius: BorderRadius.circular(5),
-                            ),
-                            child: TextField(
-                              controller: _nameController,
-                              decoration: InputDecoration(
-                                border: InputBorder.none,
-                              ),
-                              enabled: _isEditing,
-                            ),
-                          ),
-                          SizedBox(height: 10),
-                          Text('Gmail', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
-                          Container(
-                            padding: EdgeInsets.symmetric(horizontal: 10),
-                            decoration: BoxDecoration(
-                              color: Colors.grey[200],
-                              borderRadius: BorderRadius.circular(5),
-                            ),
-                            child: TextField(
-                              controller: _mailController,
-                              decoration: InputDecoration(
-                                border: InputBorder.none,
-                              ),
-                              enabled: false,
-                            ),
-                          ),
-                          SizedBox(height: 10),
-                          Text('Bio', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)), // Add this line
-                          Container(
-                            padding: EdgeInsets.symmetric(horizontal: 10),
-                            decoration: BoxDecoration(
-                              color: Colors.grey[200],
-                              borderRadius: BorderRadius.circular(5),
-                            ),
-                            width: MediaQuery.of(context).size.width * 1, // 80% of screen width
-                            height: MediaQuery.of(context).size.height * 0.2, // 20% of screen height
-                            child: TextField(
-                              controller: _bioController,
-                              decoration: InputDecoration(
-                                border: InputBorder.none,
-                              ),
-                              maxLines: null, // allow as many lines as the user needs
-                              enabled: _isEditing,
-                            ),
-                          ),
-                          SizedBox(height: 10),
-                          FadeInAnimation(
-                            delay: 2.7,
-                            child: CustomElevatedButton(
-                              message: "Logout",
-                              function: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(builder: (context) => AuthenticationUI()),
-                                );
-                              },
-                              color: Color(0xFF7EC4CF),
-                            ),
-                          ),
-                          
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
+              Icon(
+                Icons.person,
+                size: 100, // adjust the size as needed
+                color: user.gender == 'Male' ? Colors.blue : (user.gender == 'Female' ? Colors.pink : Colors.grey),
               ),
+            buildUserInfoDisplay(user.name, 'Name', EditNameFormPage()),
+            buildUserInfoDisplay(user.email, 'Email', null),
+            Expanded(
+              child: buildAbout(user),
+              flex: 4,
             ),
           ],
         ),
@@ -161,9 +57,125 @@ class _Page4State extends State<Profile> with SingleTickerProviderStateMixin {
     );
   }
 
-  @override
-  void dispose() {
-    _controller.dispose();
-    super.dispose();
+  // Widget builds the display item with the proper formatting to display the user's info
+  Widget buildUserInfoDisplay(String getValue, String title, Widget? editPage) =>
+      Padding(
+          padding: EdgeInsets.only(bottom: 10),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                title,
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.grey,
+                ),
+              ),
+              SizedBox(
+                height: 1,
+              ),
+              Container(
+                  width: 350,
+                  height: 40,
+                  decoration: BoxDecoration(
+                      border: Border(
+                          bottom: BorderSide(
+                    color: Colors.grey,
+                    width: 1,
+                  ))),
+                  child: Row(children: [
+                    Expanded(
+                        child: TextButton(
+                            onPressed: editPage != null ? () {
+                              navigateSecondPage(editPage);
+                            } : null, // if editPage is null, onPressed will be null
+                            child: Text(
+                              getValue,
+                              style: TextStyle(fontSize: 16, height: 1.4),
+                            ))),
+                    if (editPage != null) // if editPage is not null, show the arrow icon
+                      Icon(
+                        Icons.keyboard_arrow_right,
+                        color: Colors.grey,
+                        size: 40.0,
+                      )
+                  ]))
+            ],
+          ));
+
+  // Widget builds the About Me Section
+  Widget buildAbout(User user) => Padding(
+      padding: EdgeInsets.only(bottom: 10),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'Tell Us About Yourself',
+            style: TextStyle(
+              fontSize: 15,
+              fontWeight: FontWeight.w500,
+              color: Colors.grey,
+            ),
+          ),
+          const SizedBox(height: 1),
+          Container(
+              width: 350,
+              height: 200,
+              decoration: BoxDecoration(
+                  border: Border(
+                      bottom: BorderSide(
+                color: Colors.grey,
+                width: 1,
+              ))),
+              child: Row(children: [
+                Expanded(
+                    child: TextButton(
+                        onPressed: () {
+                          navigateSecondPage(EditDescriptionFormPage());
+                        },
+                        child: Padding(
+                            padding: EdgeInsets.fromLTRB(0, 10, 10, 10),
+                            child: Align(
+                                alignment: Alignment.topLeft,
+                                child: Text(
+                                  user.aboutMeDescription,
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    height: 1.4,
+                                  ),
+                                ))))),
+                Icon(
+                  Icons.keyboard_arrow_right,
+                  color: Colors.grey,
+                  size: 40.0,
+                )
+              ])),
+              FadeInAnimation(
+              delay: 2.7,
+              child: CustomElevatedButton(
+                message: "Logout",
+                function: () {
+                  Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const LoginPage()),
+                            );
+                },
+                color: Color(0xFF7EC4CF),
+              ),
+            ),
+            ],
+      ));
+
+  // Refrshes the Page after updating user info.
+  FutureOr onGoBack(dynamic value) {
+    setState(() {});
+  }
+
+  // Handles navigation and prompts refresh.
+  void navigateSecondPage(Widget editForm) {
+    Route route = MaterialPageRoute(builder: (context) => editForm);
+    Navigator.push(context, route).then(onGoBack);
   }
 }

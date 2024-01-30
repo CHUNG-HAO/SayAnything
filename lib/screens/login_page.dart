@@ -131,7 +131,8 @@ class _LoginPageState extends State<LoginPage> {
                                   builder: (context) => MainPage(initialIndex: 2)),
                             );
                           },
-                          color: Color(0xFF7EC4CF),
+                          color: Color(0xFF7EC4CF), 
+                          
                         ),
                       ),
                     ],

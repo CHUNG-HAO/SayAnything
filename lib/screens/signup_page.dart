@@ -130,6 +130,7 @@ class _SignupPageState extends State<SignupPage> {
                           message: "Register",
                           function: () {},
                           color: Color(0xFF7EC4CF),
+                         
                         ),
                       ),
                     ],
