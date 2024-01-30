@@ -121,7 +121,7 @@ class _ProfilePageState extends State<Profile> {
           const SizedBox(height: 1),
           Container(
               width: 350,
-              height: 200,
+              height: 150,
               decoration: BoxDecoration(
                   border: Border(
                       bottom: BorderSide(
