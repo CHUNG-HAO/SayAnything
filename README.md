@@ -41,3 +41,4 @@ flutter run
 > https://api.flutter.dev/flutter/material/material-library.html
 > https://api.flutter.dev/flutter/widgets/widgets-library.html
 > https://api.flutter.dev/flutter/dart-ui/Color-class.html
+> https://pub.dev/packages/shared_preferences
