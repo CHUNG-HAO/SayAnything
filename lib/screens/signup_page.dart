@@ -1,5 +1,6 @@
 import 'package:authentication_ui/common/common.dart';
 import 'package:authentication_ui/screens/fade_animationtest.dart';
+import 'package:authentication_ui/screens/loading_page.dart';
 import 'package:authentication_ui/widgets/custom_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -14,17 +15,32 @@ class SignupPage extends StatefulWidget {
 }
 
 class _SignupPageState extends State<SignupPage> {
+  Future<void> performWithLoading(Future<void> Function() asyncOperation) async {
+    // Show the loading page
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) => LoadingPage(),
+    );
+
+    // Perform the async operation
+    await asyncOperation();
+
+    // Close the loading page
+    Navigator.pop(context);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    backgroundColor: Color.fromARGB(255, 255, 255, 255),
-    body: SafeArea(
-      child: Padding(
-        padding: const EdgeInsets.all(10.0),
-        child: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
               FadeInAnimation(
                 delay: 0.6,
                 child: IconButton(
@@ -124,13 +140,15 @@ class _SignupPageState extends State<SignupPage> {
                       const SizedBox(
                         height: 20,
                       ),
-                      FadeInAnimation(
+                       FadeInAnimation(
                         delay: 2.7,
                         child: CustomElevatedButton(
                           message: "Register",
-                          function: () {},
+                          function: () => performWithLoading(() async {
+                            // Simulate a network request
+                            await Future.delayed(Duration(seconds: 2));
+                          }),
                           color: Color(0xFF7EC4CF),
-                         
                         ),
                       ),
                     ],

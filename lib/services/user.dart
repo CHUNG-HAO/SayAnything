@@ -4,7 +4,7 @@ class User {
   String email;
   String aboutMeDescription;
   String gender;
-  // Constructor
+
   User({
    
     required this.name,

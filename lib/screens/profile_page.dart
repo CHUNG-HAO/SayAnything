@@ -155,6 +155,7 @@ class _ProfilePageState extends State<Profile> {
               delay: 2.7,
               child: CustomElevatedButton(
                 message: "Logout",
+                
                 function: () {
                   Navigator.push(
                               context,

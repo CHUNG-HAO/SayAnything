@@ -42,3 +42,4 @@ flutter run
 > https://api.flutter.dev/flutter/widgets/widgets-library.html
 > https://api.flutter.dev/flutter/dart-ui/Color-class.html
 > https://pub.dev/packages/shared_preferences
+> https://pub.dev/packages/loading_animation_widget

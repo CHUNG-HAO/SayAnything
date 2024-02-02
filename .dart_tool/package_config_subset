@@ -94,6 +94,10 @@ flutter_plugin_android_lifecycle
 2.19
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17/
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17/lib/
+flutter_spinkit
+2.12
+file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/flutter_spinkit-5.2.0/
+file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/flutter_spinkit-5.2.0/lib/
 flutter_svg
 2.19
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/flutter_svg-2.0.9/
@@ -166,6 +170,10 @@ lints
 3.0
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/lints-3.0.0/
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/lints-3.0.0/lib/
+loading_animation_widget
+2.16
+file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/loading_animation_widget-1.2.0+4/
+file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/loading_animation_widget-1.2.0+4/lib/
 logging
 2.19
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/logging-1.2.0/
