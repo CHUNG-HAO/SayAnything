@@ -2,7 +2,14 @@ import 'package:authentication_ui/screens/chat_page.dart';
 import 'package:flutter/material.dart';
 
 class ChatList extends StatelessWidget {
-  const ChatList({super.key});
+  ChatList({Key? key}) : super(key: key);
+
+  final List<String> chatRooms = [
+    'Chat Room 1',
+    'Chat Room 2',
+    'Chat Room 3',
+    // Add more chat rooms here
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -23,13 +30,27 @@ class ChatList extends StatelessWidget {
               elevation: 0, 
               automaticallyImplyLeading: false,
             ),
-            Center(
-                child: TextButton(
-                child: Text('Go to Chat Page'),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => ChatPage()),
+            Expanded(
+              child: ListView.builder(
+                itemCount: chatRooms.length,
+                itemBuilder: (context, index) {
+                  return Container(
+                    margin: const EdgeInsets.all(8.0),
+                    child: Card(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(15.0),
+                      ),
+                      color: Colors.white,
+                      child: ListTile(
+                        title: Text(chatRooms[index]),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => ChatPage()),
+                          );
+                        },
+                      ),
+                    ),
                   );
                 },
               ),
