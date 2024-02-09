@@ -6,7 +6,6 @@ import 'package:authentication_ui/widgets/custom_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:authentication_ui/screens/edit_description.dart';
 
-
 import 'package:authentication_ui/screens/edit_name.dart';
 
 import '../services/user.dart';
@@ -42,7 +41,7 @@ class _ProfilePageState extends State<Profile> {
             ),
               Icon(
                 Icons.person,
-                size: 100, // adjust the size as needed
+                size: 100, 
                 color: user.gender == 'Male' ? Colors.blue : (user.gender == 'Female' ? Colors.pink : Colors.grey),
               ),
             buildUserInfoDisplay(user.name, 'Name', EditNameFormPage()),
@@ -89,7 +88,7 @@ class _ProfilePageState extends State<Profile> {
                         child: TextButton(
                             onPressed: editPage != null ? () {
                               navigateSecondPage(editPage);
-                            } : null, // if editPage is null, onPressed will be null
+                            } : null, 
                             child: Text(
                               getValue,
                               style: TextStyle(fontSize: 16, height: 1.4),
@@ -174,7 +173,6 @@ class _ProfilePageState extends State<Profile> {
     setState(() {});
   }
 
-  // Handles navigation and prompts refresh.
   void navigateSecondPage(Widget editForm) {
     Route route = MaterialPageRoute(builder: (context) => editForm);
     Navigator.push(context, route).then(onGoBack);

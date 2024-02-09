@@ -37,10 +37,18 @@ flutter run
 
 ### RF
 
-> https://pub.dev/packages/curved_navigation_bar
-> https://api.flutter.dev/flutter/material/material-library.html
-> https://api.flutter.dev/flutter/widgets/widgets-library.html
-> https://api.flutter.dev/flutter/dart-ui/Color-class.html
-> https://pub.dev/packages/shared_preferences
-> https://pub.dev/packages/loading_animation_widget
-> https://pub.dev
+> 1. https://pub.dev/packages/curved_navigation_bar
+
+> 2. https://api.flutter.dev/flutter/material/material-library.html
+
+> 3. https://api.flutter.dev/flutter/widgets/widgets-library.html
+
+> 4. https://api.flutter.dev/flutter/dart-ui/Color-class.html
+
+> 5. https://pub.dev/packages/shared_preferences
+
+> 6. https://pub.dev/packages/loading_animation_widget
+
+> 7. https://pub.devs
+
+> 8. https://pub.dev/packages/flutter_local_notifications
