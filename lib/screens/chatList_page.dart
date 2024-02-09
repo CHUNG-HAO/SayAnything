@@ -8,6 +8,7 @@ class ChatList extends StatelessWidget {
     'Chat Room 1',
     'Chat Room 2',
     'Chat Room 3',
+    'Chat Room 4 '
     // Add more chat rooms here
   ];
 
@@ -38,15 +39,16 @@ class ChatList extends StatelessWidget {
                     margin: const EdgeInsets.all(8.0),
                     child: Card(
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(15.0),
+                        borderRadius: BorderRadius.circular(16.0),
                       ),
                       color: Colors.white,
                       child: ListTile(
+                        leading: Icon(Icons.person), // Add your gender icon here
                         title: Text(chatRooms[index]),
                         onTap: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => ChatPage()),
+                            MaterialPageRoute(builder: (context) => ChatPage(chatRoomName: chatRooms[index])),
                           );
                         },
                       ),

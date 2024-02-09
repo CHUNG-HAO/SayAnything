@@ -23,12 +23,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => const MaterialApp(
-        home: ChatPage(),
+        home: ChatPage(chatRoomName: '',),
       );
 }
 
 class ChatPage extends StatefulWidget {
-  const ChatPage({super.key});
+  final String chatRoomName;
+
+  const ChatPage({Key? key, required this.chatRoomName}) : super(key: key);
 
   @override
   State<ChatPage> createState() => _ChatPageState();
@@ -235,9 +237,9 @@ class _ChatPageState extends State<ChatPage> {
   }
 
   @override
-Widget build(BuildContext context) => Scaffold(
-  appBar: AppBar(
-    title: Text('Name'), // Replace with the actual chat room name
+  Widget build(BuildContext context) => Scaffold(
+    appBar: AppBar(
+      title: Text(widget.chatRoomName), // Set the title to the user's id
     backgroundColor: Color(0xFF7EC4CF),
     leading: IconButton(
       icon: Icon(Icons.arrow_back),
