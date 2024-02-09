@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" >
+        <title>For Management</title>
+    </head>
+    <body>
+        <h1 id="managePageTitle">Manage Page</h1>
+        
+        <table border='1'>
+                <tr>
+                        <th>ID</th>
+                        <th>Username</th>
+                        <th>Gender(M/F)</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                </tr>
+                {% if query != undefined %}
+                        {% for data in query %}
+                        <tr>
+                                <td>{{ data._id }}</td>
+                                <td>{{ data.username }}</td>
+                                <td>{{ data.gender }}</td>
+                                <td>{{ data.email }}</td>
+                                <td>{{ data.password }}</td>
+                                <td><button type="submit">Edit</button></td>
+                                <td><button type="submit">Delete</button></td>
+                        </tr>
+                        {% endfor %}
+                {% endif %}
+        </table>
+    </body>
+</html>

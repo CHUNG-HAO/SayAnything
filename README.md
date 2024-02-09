@@ -52,3 +52,11 @@ flutter run
 > 7. https://pub.devs
 
 > 8. https://pub.dev/packages/flutter_local_notifications
+
+> 9. https://cloud.tencent.com/developer/article/2239362
+
+> 10. https://ithelp.ithome.com.tw/articles/10268973
+
+> 11. https://medium.com/seaniap/python-web-flask-blueprints-%E8%A7%A3%E6%B1%BA%E5%A4%A7%E6%9E%B6%E6%A7%8B%E7%9A%84%E7%B6%B2%E7%AB%99-1f9878312526
+
+> 12. https://flask.palletsprojects.com/en/latest/blueprints/#
