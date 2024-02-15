@@ -23,10 +23,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			fTM0OnDE0XF7bzkz9lMJDBxmBR0=
+			y19ZYEFcYnx4L+9F2OjUD9cRn4o=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"7d33343a70c4d1717b6f3933f653090c1c66051d"</string>
+			<string>cdhash H"cb5f5960415c627c782fef45d8e8d40fd7119f8a"</string>
 		</dict>
 		<key>Frameworks/FlutterMacOS.framework</key>
 		<dict>
@@ -36,6 +36,33 @@
 			</data>
 			<key>requirement</key>
 			<string>cdhash H"80ce086f4d6e2a5a12bfacf7194b80a47d0174e7"</string>
+		</dict>
+		<key>Frameworks/audioplayers.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			fGXrZic0vMeYDi6EFTjqdyTq3JE=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"7c65eb662734bcc7980e2e841538ea7724eadc91"</string>
+		</dict>
+		<key>Frameworks/file_selector_macos.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			NkBLRwrifRFxYiy2I5UDvjgahAY=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"36404b470ae27d1171622cb6239503be381a8406"</string>
+		</dict>
+		<key>Frameworks/libswiftAVFoundation.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			vG/+wrcE2vnxenLi//6PdPbBnnI=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"feb2b00ea35babbf1f8ecd2b9dd7c3523b8dd2e3" or cdhash H"bc6ffec2b704daf9f17a72e2fffe8f74f6c19e72"</string>
 		</dict>
 		<key>Frameworks/libswiftAppKit.dylib</key>
 		<dict>
@@ -190,6 +217,15 @@
 			<key>requirement</key>
 			<string>cdhash H"3406aab10f486b91c2d9334de341504de56a5631" or cdhash H"73e04119822f2d8cd5eeb426ddac2b2b98295def"</string>
 		</dict>
+		<key>Frameworks/libswiftsimd.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			yoevzZNzSjWnQqIYLmXdd/DhGvQ=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a91aa60521c71dd382e53441689bc0970469be1b" or cdhash H"ca87afcd93734a35a742a2182e65dd77f0e11af4"</string>
+		</dict>
 		<key>Frameworks/path_provider_foundation.framework</key>
 		<dict>
 			<key>cdhash</key>
@@ -199,6 +235,15 @@
 			<key>requirement</key>
 			<string>cdhash H"908b9d8d5dc7e0df3b30f099ce8ce31550466da7"</string>
 		</dict>
+		<key>Frameworks/shared_preferences_foundation.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			RI2zmAaGBw7AKbUJ7X9zaqJ8rv4=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"448db3980686070ec029b509ed7f736aa27caefe"</string>
+		</dict>
 		<key>Frameworks/smart_auth.framework</key>
 		<dict>
 			<key>cdhash</key>
@@ -207,6 +252,15 @@
 			</data>
 			<key>requirement</key>
 			<string>cdhash H"ca24d5506c42cd90c6edd5dd00c257a07662fcab"</string>
+		</dict>
+		<key>Frameworks/url_launcher_macos.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			BnZ3hTlREcmgbv2vXk9TeO24rIU=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"06767785395111c9a06efdaf5e4f5378edb8ac85"</string>
 		</dict>
 		<key>Resources/AppIcon.icns</key>
 		<dict>

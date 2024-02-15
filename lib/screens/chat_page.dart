@@ -36,6 +36,7 @@ class ChatPage extends StatefulWidget {
   State<ChatPage> createState() => _ChatPageState();
 }
 
+
 class _ChatPageState extends State<ChatPage> {
   List<types.Message> _messages = [];
   final _user = const types.User(
@@ -58,7 +59,7 @@ class _ChatPageState extends State<ChatPage> {
   showModalBottomSheet<void>(
     context: context,
     builder: (BuildContext context) => Container(
-      color: Color(0xff7ec4cf), // Replace with your desired color
+      color: Color(0xff7ec4cf), 
       child: SafeArea(
         child: SizedBox(
           height: 144,
@@ -239,13 +240,34 @@ class _ChatPageState extends State<ChatPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      title: Text(widget.chatRoomName), // Set the title to the user's id
-    backgroundColor: Color(0xFF7EC4CF),
-    leading: IconButton(
-      icon: Icon(Icons.arrow_back),
-      onPressed: () => Navigator.pop(context),
-    ),
+  backgroundColor: Color(0xFF7EC4CF),
+  leading: IconButton(
+    icon: Icon(Icons.arrow_back),
+    onPressed: () => Navigator.pop(context),
   ),
+  title: Row(
+    children: <Widget>[
+      CircleAvatar(
+        // Replace with your image
+        backgroundImage: NetworkImage('https://via.placeholder.com/150'),
+        radius: 20,
+      ),
+      SizedBox(width: 10), // Give some spacing between the avatar and the title
+      Text(
+        widget.chatRoomName,
+        style: TextStyle(fontSize: 18), // Make the font size smaller than the avatar
+      ),
+    ],
+  ),
+  actions: <Widget>[
+    IconButton(
+      icon: Icon(Icons.phone),
+      onPressed: () {
+        // Implement your phone call function here
+      },
+    ),
+  ],
+),
   body: Chat(
     messages: _messages,
     onAttachmentPressed: _handleAttachmentPressed,
@@ -256,7 +278,7 @@ class _ChatPageState extends State<ChatPage> {
     showUserNames: true,
     user: _user,
     theme: DefaultChatTheme(
-      backgroundColor: Color.fromARGB(255, 255, 255, 255), // Set the background color here
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       inputBackgroundColor: Color(0xFF7EC4CF),
       primaryColor: Color(0xFF7EC4CF),
       seenIcon: Text(

@@ -1,0 +1,10 @@
+framework module audioplayers {
+  umbrella header "audioplayers-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module audioplayers.__Swift {
+  exclude header "audioplayers-Swift.h"
+}
