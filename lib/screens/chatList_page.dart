@@ -96,41 +96,50 @@ void simulateNewMessages() async {
     incrementUnreadMessages();
   }
 }
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [Color(0xFFDECFE2), Color(0xFF7EC4CF)],
-          ),
+
+
+@override
+Widget build(BuildContext context) {
+  return Scaffold(
+    body: Padding(
+      padding: EdgeInsets.zero,
+      child: Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          colors: [Color(0xFFDECFE2), Color(0xFF7EC4CF)],
         ),
-        child: Column(
-          children: [
-            AppBar(
-              title: Text('Chat'),
-              backgroundColor: Colors.transparent, 
-              elevation: 0, 
-              automaticallyImplyLeading: false,
-              actions: [
-                IconButton(
-                  icon: Icon(Icons.search),
-                  onPressed: () {
-                    showSearch(
-                      context: context,
-                      delegate: ChatSearch(chatRooms),
-                    );
-                  },
-                ),
-              ],
-            ),
+      ),
+      child: Column(
+        children: [
+          AppBar(
+            title: Text('Chat'),
+            backgroundColor: Colors.transparent, 
+            elevation: 0, 
+            automaticallyImplyLeading: false,
+            actions: [
+              IconButton(
+                icon: Icon(Icons.search),
+                onPressed: () {
+                  showSearch(
+                    context: context,
+                    delegate: ChatSearch(chatRooms),
+                  );
+                },
+              ),
+            ],
+          ),
+          Container(
+            height: 50, 
+            color: Colors.yellow, 
+            child: Center(child: Text('廣告')), 
+          ),
             Expanded(
               child: ListView.builder(
+                padding: EdgeInsets.only(top: 0),
                 itemCount: chatRooms.length,
                 itemBuilder: (context, index) {
-                  // Replace with your actual last message and time
                   String lastMessage = "This is the last message from this chat room";
                   String lastMessageTime = "10:30 PM";
 
@@ -240,6 +249,7 @@ void simulateNewMessages() async {
           ],
         ),
       ),
-    );
-  }
+    ),
+  );
+}
 }

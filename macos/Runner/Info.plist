@@ -28,5 +28,11 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>需要您的同意，才能訪問相簿</string>
+	<key>NSCameraUsageDescription</key>
+	<string>需要您的同意，才能訪問相機</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>需要您的同意，才能訪問麥克風</string>
 </dict>
 </plist>

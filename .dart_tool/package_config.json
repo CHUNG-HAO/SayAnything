@@ -470,6 +470,18 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "permission_handler",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/permission_handler-8.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "permission_handler_platform_interface",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/permission_handler_platform_interface-3.12.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "petitparser",
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/petitparser-6.0.2",
       "packageUri": "lib/",
@@ -752,7 +764,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-02-09T07:37:28.931423Z",
+  "generated": "2024-02-18T07:27:00.875288Z",
   "generator": "pub",
   "generatorVersion": "3.2.4"
 }

@@ -1,18 +1,18 @@
 import 'dart:convert';
 import 'dart:io';
-
+import 'package:image_picker/image_picker.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
 import 'package:flutter_chat_ui/flutter_chat_ui.dart';
 import 'package:http/http.dart' as http;
-import 'package:image_picker/image_picker.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:mime/mime.dart';
 import 'package:open_filex/open_filex.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:uuid/uuid.dart';
+
 
 void main() {
   initializeDateFormatting().then((_) => runApp(const MyApp()));
@@ -38,6 +38,7 @@ class ChatPage extends StatefulWidget {
 
 
 class _ChatPageState extends State<ChatPage> {
+
   List<types.Message> _messages = [];
   final _user = const types.User(
     id: '82091008-a484-4a89-ae75-a22bf8d6f3ac',
@@ -131,6 +132,7 @@ class _ChatPageState extends State<ChatPage> {
   }
 
   void _handleImageSelection() async {
+  try {
     final result = await ImagePicker().pickImage(
       imageQuality: 70,
       maxWidth: 1440,
@@ -154,7 +156,10 @@ class _ChatPageState extends State<ChatPage> {
 
       _addMessage(message);
     }
+  } catch (e) {
+    print('Error: $e');
   }
+}
 
   void _handleMessageTap(BuildContext _, types.Message message) async {
     if (message is types.FileMessage) {
@@ -216,15 +221,27 @@ class _ChatPageState extends State<ChatPage> {
   }
 
   void _handleSendPressed(types.PartialText message) {
-    final textMessage = types.TextMessage(
-      author: _user,
+  final textMessage = types.TextMessage(
+    author: _user,
+    createdAt: DateTime.now().millisecondsSinceEpoch,
+    id: const Uuid().v4(),
+    text: message.text,
+  );
+
+  _addMessage(textMessage);
+
+  // Simulate a response
+  Future.delayed(Duration(seconds: 1), () {
+    final responseMessage = types.TextMessage(
+      author: types.User(id: 'Chris'), // The id of the other user
       createdAt: DateTime.now().millisecondsSinceEpoch,
       id: const Uuid().v4(),
-      text: message.text,
+      text: 'Automated Test .', 
     );
 
-    _addMessage(textMessage);
-  }
+    _addMessage(responseMessage);
+  });
+}
 
   void _loadMessages() async {
     final response = await rootBundle.loadString('assets/messages.json');
