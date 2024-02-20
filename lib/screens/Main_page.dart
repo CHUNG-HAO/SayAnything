@@ -1,7 +1,7 @@
 import 'package:authentication_ui/screens/chatList_page.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:authentication_ui/screens/page1.dart';
+import 'package:authentication_ui/screens/aboutus_page.dart';
 import 'package:authentication_ui/screens/page2.dart';
 import 'package:authentication_ui/screens/profile_page.dart';
 import 'package:authentication_ui/screens/home.dart';
