@@ -35,6 +35,8 @@ dependencies:
   file_picker: any
   open_filex: ^4.4.0
   permission_handler: ^8.1.6
+  flutter_callkit_incoming: ^2.0.1+2
+  firebase_core: ^2.25.4
 dev_dependencies:
   flutter_test:
     sdk: flutter
