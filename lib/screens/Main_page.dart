@@ -24,7 +24,7 @@ class _MainPageState extends State<MainPage> {
   late PageController _pageController = PageController(initialPage: widget.initialIndex);
   int _selectedIndex = 0;
   final List<Widget> _widgetOptions = <Widget>[
-    Page1(),
+    Aboutus(),
     Page2(),
     HomePage(),
     ChatList(),

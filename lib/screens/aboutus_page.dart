@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class Page1 extends StatelessWidget {
+class Aboutus extends StatelessWidget {
+  final _formKey = GlobalKey<FormState>();
+  final _subjectController = TextEditingController();
+  final _bodyController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,15 +30,15 @@ class Page1 extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 children: [
                   ListTile(
-                    title: Text('歷史介紹', textAlign: TextAlign.center),
+                    title: Text('Origin👍', textAlign: TextAlign.center),
                     subtitle: Text('Our history...', textAlign: TextAlign.center),
                   ),
                   ListTile(
-                    title: Text('指導教授', textAlign: TextAlign.center),
+                    title: Text('Professor👨‍🏫', textAlign: TextAlign.center),
                   ),
                   buildCard(context, 'assets/images/ting.png', '李文廷', 'wtlee@mail.nknu.edu.tw'),
                   ListTile(
-                    title: Text('開發成員', textAlign: TextAlign.center),
+                    title: Text('Developer👨‍🎓👩‍🎓👨‍🏫', textAlign: TextAlign.center),
                   ),
                   buildCard(context, 'assets/images/chung.jpeg', '鍾弘浩', 'chunghao777@gmail.com'),
                   buildCard(context, 'https://example.com/image3.jpg', '談宇容', '@gmail.com'),
@@ -42,6 +47,62 @@ class Page1 extends StatelessWidget {
                     title: Text('特別感謝', textAlign: TextAlign.center),
                   ),
                   buildCard(context, 'https://example.com/image5.jpg', '友情協助成員', '@gmail.com'),
+                  ListTile(
+                    title: Text('問題回報', textAlign: TextAlign.center),
+                  ),
+                  Form(
+                    key: _formKey,
+                    child: Card(
+                      color: Colors.white,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30.0),
+                      ),
+                      child: Padding(
+                        padding: EdgeInsets.all(16.0),
+                        child: Column(
+                          children: <Widget>[
+                            TextFormField(
+                              controller: _subjectController,
+                              decoration: InputDecoration(
+                                labelText: 'Subject',
+                                focusColor: Color(0xFF7EC4CF), // Set the focus color here
+                              ),
+                              validator: (value) {
+                                if (value == null || value.isEmpty) {
+                                  return 'Please enter a subject';
+                                }
+                                return null;
+                              },
+                            ),
+                            TextFormField(
+                              controller: _bodyController,
+                              decoration: InputDecoration(
+                                labelText: 'Body',
+                                focusColor: Color(0xFF7EC4CF), // Set the focus color here
+                              ),
+                              validator: (value) {
+                                if (value == null || value.isEmpty) {
+                                  return 'Please enter a body';
+                                }
+                                return null;
+                              },
+                            ),
+                            ElevatedButton(
+                              onPressed: () {
+                                if (_formKey.currentState != null && _formKey.currentState!.validate()) {
+                                  sendEmail(context, 'Subject', 'Body');
+                                }
+                              },
+                              child: Text('Submit'),
+                              style: ElevatedButton.styleFrom(
+                                primary: Color(0xFF7EC4CF), // Set the button color here
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -76,4 +137,24 @@ class Page1 extends StatelessWidget {
       ),
     );
   }
+
+  void sendEmail(BuildContext context, String subject, String body) async {
+  final String email = 'chunghao777@gmail.com';
+  final Uri params = Uri(
+    scheme: 'mailto',
+    path: email,
+    query: 'subject=$subject&body=$body',
+  );
+
+  String url = params.toString();
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text('Could not launch $url. Please install a mail app.'),
+      ),
+    );
+  }
+}
 }
