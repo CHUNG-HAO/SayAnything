@@ -41,8 +41,8 @@ class Aboutus extends StatelessWidget {
                     title: Text('Developer👨‍🎓👩‍🎓👨‍🏫', textAlign: TextAlign.center),
                   ),
                   buildCard(context, 'assets/images/chung.jpeg', '鍾弘浩', 'chunghao777@gmail.com'),
-                  buildCard(context, 'https://example.com/image3.jpg', '談宇容', '@gmail.com'),
-                  buildCard(context, 'assets/images/george.png', '林鈺佑', '@gmail.com'),
+                  buildCard(context, 'assets/images/T.png', '談宇容', 'sylvia15334@gmail.com'),
+                  buildCard(context, 'assets/images/george.png', '林鈺佑', 'george920102@gmail.com'),
                   ListTile(
                     title: Text('特別感謝', textAlign: TextAlign.center),
                   ),

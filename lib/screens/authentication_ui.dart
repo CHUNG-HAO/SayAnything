@@ -51,7 +51,7 @@ class _AuthenticationUIState extends State<AuthenticationUI> {
                     FadeInAnimation(
                       delay: 1.5,
                       child: Text(
-                        "DDDAAATTT",
+                        "NKNU Pair",
                         style: Common().titelTheme.copyWith(color: Color.fromARGB(255, 0, 0, 0)),
                       ),
                     ),
