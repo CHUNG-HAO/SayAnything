@@ -6,6 +6,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
+import 'package:authentication_ui/services/API_services.dart';
+
+final apiService = ApiService();
 
 class SignupPage extends StatefulWidget {
   const SignupPage({super.key});
@@ -15,20 +18,27 @@ class SignupPage extends StatefulWidget {
 }
 
 class _SignupPageState extends State<SignupPage> {
+
+  final usernameController = TextEditingController();
+  final emailController = TextEditingController();
+  final passwordController = TextEditingController();
+  final genderController = TextEditingController();
+  final confirmPasswordController = TextEditingController();
+
+
   Future<void> performWithLoading(Future<void> Function() asyncOperation) async {
-    // Show the loading page
     showDialog(
       context: context,
       barrierDismissible: false,
       builder: (BuildContext context) => LoadingPage(),
     );
 
-    // Perform the async operation
     await asyncOperation();
 
-    // Close the loading page
     Navigator.pop(context);
   }
+
+  
 
   @override
   Widget build(BuildContext context) {
@@ -81,40 +91,10 @@ class _SignupPageState extends State<SignupPage> {
                     children: [
                       FadeInAnimation(
                         delay: 1.5,
-                        child: const CustomTextFormField(
+                        child: CustomTextFormField(
                           hinttext: 'Username',
                           obsecuretext: false,
-                        ),
-                      ),
-                      const SizedBox(
-                        height: 10,
-                      ),
-                      FadeInAnimation(
-                      delay: 2.1,
-                      child: DropdownButtonFormField<String>(
-                        decoration: InputDecoration(
-                          labelText: 'Gender',
-                        ),
-                        items: <String>['Male', 'Female'].map((String value) {
-                          return DropdownMenuItem<String>(
-                            value: value,
-                            child: Text(value),
-                          );
-                        }).toList(),
-                        onChanged: (_) {},
-                      ),
-                    ),
-                      const SizedBox(
-                        height: 10,
-                      ),
-                      FadeInAnimation(
-                        delay: 1.8,
-                        child: CustomTextFormField(
-                          hinttext: 'Email',
-                          obsecuretext: false,
-                          decoration: InputDecoration(
-                            suffixText: '@mail.nknu.edu.tw',
-                          ),
+                          controller: usernameController,  
                         ),
                       ),
                       const SizedBox(
@@ -122,9 +102,39 @@ class _SignupPageState extends State<SignupPage> {
                       ),
                       FadeInAnimation(
                         delay: 2.1,
-                        child: const CustomTextFormField(
+                        child: DropdownButtonFormField<String>(
+                          decoration: InputDecoration(
+                            labelText: 'Gender',
+                          ),
+                          items: <String>['Male', 'Female'].map((String value) {
+                            return DropdownMenuItem<String>(
+                              value: value,
+                              child: Text(value),
+                            );
+                          }).toList(),
+                          onChanged: (value) {
+                            genderController.text = value!;  
+                          },
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 10,
+                      ),
+                      CustomTextFormField(
+                        hinttext: 'Email',
+                        obsecuretext: false,
+                        controller: emailController,
+                        addSuffix: true, 
+                      ),
+                      const SizedBox(
+                        height: 10,
+                      ),
+                      FadeInAnimation(
+                        delay: 2.1,
+                        child:  CustomTextFormField(
                           hinttext: 'Password',
                           obsecuretext: true,
+                          controller: passwordController,
                         ),
                       ),
                       const SizedBox(
@@ -132,9 +142,10 @@ class _SignupPageState extends State<SignupPage> {
                       ),
                       FadeInAnimation(
                         delay: 2.4,
-                        child: const CustomTextFormField(
+                        child: CustomTextFormField(
                           hinttext: 'Confirm password',
                           obsecuretext: false,
+                          controller: confirmPasswordController,
                         ),
                       ),
                       const SizedBox(
@@ -145,8 +156,12 @@ class _SignupPageState extends State<SignupPage> {
                         child: CustomElevatedButton(
                           message: "Register",
                           function: () => performWithLoading(() async {
-                            // Simulate a network request
-                            await Future.delayed(Duration(seconds: 2));
+                            await apiService.registerUser(
+                              usernameController.text,
+                              emailController.text,
+                              passwordController.text,
+                              genderController.text,  
+                            );
                           }),
                           color: Color(0xFF7EC4CF),
                         ),

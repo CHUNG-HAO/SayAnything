@@ -39,6 +39,7 @@ dependencies:
   firebase_core: ^2.25.4
   flutter_slidable: ^0.6.0
   rive: any
+  mockito: ^5.0.16
 dev_dependencies:
   flutter_test:
     sdk: flutter

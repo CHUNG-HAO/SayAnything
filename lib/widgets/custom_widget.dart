@@ -11,6 +11,7 @@ class CustomTextFormField extends StatefulWidget {
   final bool obsecuretext;
   final TextEditingController? controller;
   final InputDecoration? decoration;
+  final bool addSuffix; // 新增的屬性
 
   const CustomTextFormField({
     Key? key,
@@ -18,6 +19,7 @@ class CustomTextFormField extends StatefulWidget {
     required this.obsecuretext,
     this.controller,
     this.decoration,
+    this.addSuffix = false, // 預設值為 false
   }) : super(key: key);
 
   @override
@@ -37,8 +39,8 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
     super.dispose();
   }
 
-  void _handleTextChanged() {
-    if (!widget.controller!.text.endsWith('@mail.nknu.edu.tw')) {
+   void _handleTextChanged() {
+    if (widget.addSuffix && !widget.controller!.text.endsWith('@mail.nknu.edu.tw')) {
       widget.controller!.text = widget.controller!.text + '@mail.nknu.edu.tw';
       widget.controller!.selection = TextSelection.fromPosition(
         TextPosition(

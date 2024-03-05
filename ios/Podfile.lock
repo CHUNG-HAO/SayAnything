@@ -69,6 +69,8 @@ PODS:
   - "permission_handler (5.1.0+2)":
     - Flutter
   - PromisesObjC (2.3.1)
+  - rive_common (0.0.1):
+    - Flutter
   - SDWebImage (5.18.10):
     - SDWebImage/Core (= 5.18.10)
   - SDWebImage/Core (5.18.10)
@@ -93,6 +95,7 @@ DEPENDENCIES:
   - open_filex (from `.symlinks/plugins/open_filex/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
   - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - rive_common (from `.symlinks/plugins/rive_common/ios`)
   - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
   - smart_auth (from `.symlinks/plugins/smart_auth/ios`)
   - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
@@ -132,6 +135,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/path_provider_foundation/darwin"
   permission_handler:
     :path: ".symlinks/plugins/permission_handler/ios"
+  rive_common:
+    :path: ".symlinks/plugins/rive_common/ios"
   shared_preferences_foundation:
     :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
   smart_auth:
@@ -158,6 +163,7 @@ SPEC CHECKSUMS:
   path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
   permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  rive_common: 3a4c254c6e4db7e4b9e05daeb3d1f47ae4f7bf76
   SDWebImage: fc8f2d48bbfd72ef39d70e981bd24a3f3be53fec
   shared_preferences_foundation: b4c3b4cddf1c21f02770737f147a3f5da9d39695
   smart_auth: 4bedbc118723912d0e45a07e8ab34039c19e04f2
