@@ -296,6 +296,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "graphs",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/graphs-2.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "html",
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/html-0.15.4",
       "packageUri": "lib/",
@@ -554,6 +560,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "rive",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/rive-0.12.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "rive_common",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/rive_common-0.2.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "riverpod",
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/riverpod-1.0.3",
       "packageUri": "lib/",
@@ -794,7 +812,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-02-28T12:38:14.728246Z",
+  "generated": "2024-03-05T13:25:38.077995Z",
   "generator": "pub",
   "generatorVersion": "3.2.4"
 }

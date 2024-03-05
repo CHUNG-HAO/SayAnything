@@ -7,6 +7,7 @@ import 'package:authentication_ui/widgets/custom_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:rive/rive.dart' as rive;
 
 class AuthenticationUI extends StatefulWidget {
   const AuthenticationUI({super.key});
@@ -39,13 +40,13 @@ class _AuthenticationUIState extends State<AuthenticationUI> {
                     FadeInAnimation(
                       delay: 1,
                       child: Container(
-                        height: 80,
-                        width: 80,
-                        decoration: const BoxDecoration(
-                            shape: BoxShape.circle,
-                          image: DecorationImage(
-                              image: AssetImage(
-                                  "assets/images/nknu_logo_02.png"))),
+                        height: 150,
+                        width: 150,
+                        child: rive.RiveAnimation.asset(
+                          'assets/animation/cat.riv',
+                          fit: BoxFit.cover,
+                          alignment: Alignment.center,
+                        ),
                       ),
                     ),
                     FadeInAnimation(

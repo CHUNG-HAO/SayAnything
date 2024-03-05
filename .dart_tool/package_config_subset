@@ -182,6 +182,10 @@ google_fonts
 2.14
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/google_fonts-6.1.0/
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/google_fonts-6.1.0/lib/
+graphs
+2.18
+file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/graphs-2.3.1/
+file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/graphs-2.3.1/lib/
 html
 2.19
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/html-0.15.4/
@@ -354,6 +358,14 @@ provider
 2.12
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/provider-6.1.1/
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/provider-6.1.1/lib/
+rive
+2.17
+file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/rive-0.12.4/
+file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/rive-0.12.4/lib/
+rive_common
+2.17
+file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/rive_common-0.2.8/
+file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/rive_common-0.2.8/lib/
 riverpod
 2.14
 file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/riverpod-1.0.3/
