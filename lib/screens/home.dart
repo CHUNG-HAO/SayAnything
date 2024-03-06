@@ -1,4 +1,4 @@
-import 'package:authentication_ui/screens/fade_animationtest.dart';
+import 'package:SayAnything/screens/fade_animationtest.dart';
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart' as rive;
 class HomePage extends StatelessWidget {

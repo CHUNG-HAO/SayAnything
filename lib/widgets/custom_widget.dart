@@ -1,5 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:authentication_ui/common/common.dart';
+import 'package:SayAnything/common/common.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 

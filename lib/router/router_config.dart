@@ -1,11 +1,11 @@
-import 'package:authentication_ui/router/router.dart';
-import 'package:authentication_ui/screens/authentication_ui.dart';
-import 'package:authentication_ui/screens/forget_password.dart';
-import 'package:authentication_ui/screens/login_page.dart';
-import 'package:authentication_ui/screens/new_password.dart';
-import 'package:authentication_ui/screens/otp_verification.dart';
-import 'package:authentication_ui/screens/password_changed.dart';
-import 'package:authentication_ui/screens/signup_page.dart';
+import 'package:SayAnything/router/router.dart';
+import 'package:SayAnything/screens/authentication_ui.dart';
+import 'package:SayAnything/screens/forget_password.dart';
+import 'package:SayAnything/screens/login_page.dart';
+import 'package:SayAnything/screens/new_password.dart';
+import 'package:SayAnything/screens/otp_verification.dart';
+import 'package:SayAnything/screens/password_changed.dart';
+import 'package:SayAnything/screens/signup_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
 

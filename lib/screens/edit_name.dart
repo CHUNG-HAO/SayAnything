@@ -1,8 +1,8 @@
-import 'package:authentication_ui/screens/fade_animationtest.dart';
-import 'package:authentication_ui/widgets/custom_widget.dart';
+import 'package:SayAnything/screens/fade_animationtest.dart';
+import 'package:SayAnything/widgets/custom_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:string_validator/string_validator.dart';
-import 'package:authentication_ui/services/user_data.dart';
+import 'package:SayAnything/services/user_data.dart';
 
 class EditNameFormPage extends StatefulWidget {
   const EditNameFormPage({Key? key}) : super(key: key);

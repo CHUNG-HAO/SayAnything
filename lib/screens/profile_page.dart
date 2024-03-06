@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:authentication_ui/screens/fade_animationtest.dart';
-import 'package:authentication_ui/screens/login_page.dart';
-import 'package:authentication_ui/widgets/custom_widget.dart';
+import 'package:SayAnything/screens/fade_animationtest.dart';
+import 'package:SayAnything/screens/login_page.dart';
+import 'package:SayAnything/widgets/custom_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:authentication_ui/screens/edit_description.dart';
+import 'package:SayAnything/screens/edit_description.dart';
 
-import 'package:authentication_ui/screens/edit_name.dart';
+import 'package:SayAnything/screens/edit_name.dart';
 
 import '../services/user.dart';
 import '../services/user_data.dart';

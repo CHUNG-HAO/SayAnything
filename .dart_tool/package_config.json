@@ -74,6 +74,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "checked_yaml",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/checked_yaml-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "cli_util",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/cli_util-0.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "clock",
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/clock-1.1.1",
       "packageUri": "lib/",
@@ -254,6 +266,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "flutter_launcher_icons",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.13.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "flutter_link_previewer",
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/flutter_link_previewer-3.2.2",
       "packageUri": "lib/",
@@ -378,6 +396,12 @@
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/iconly-1.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "image",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/image-4.1.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
     },
     {
       "name": "image_picker",
@@ -896,13 +920,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "authentication_ui",
+      "name": "SayAnything",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-03-06T08:00:24.319936Z",
+  "generated": "2024-03-06T08:45:25.925519Z",
   "generator": "pub",
   "generatorVersion": "3.2.4"
 }

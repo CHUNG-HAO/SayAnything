@@ -1,12 +1,12 @@
-import 'package:authentication_ui/common/common.dart';
-import 'package:authentication_ui/screens/fade_animationtest.dart';
-import 'package:authentication_ui/screens/loading_page.dart';
-import 'package:authentication_ui/widgets/custom_widget.dart';
+import 'package:SayAnything/common/common.dart';
+import 'package:SayAnything/screens/fade_animationtest.dart';
+import 'package:SayAnything/screens/loading_page.dart';
+import 'package:SayAnything/widgets/custom_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:authentication_ui/services/API_services.dart';
+import 'package:SayAnything/services/API_services.dart';
 
 final apiService = ApiService();
 

@@ -1,4 +1,4 @@
-import 'package:authentication_ui/widgets/custom_widget.dart';
+import 'package:SayAnything/widgets/custom_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';

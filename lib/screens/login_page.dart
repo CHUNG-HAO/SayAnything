@@ -1,8 +1,8 @@
-import 'package:authentication_ui/common/common.dart';
-import 'package:authentication_ui/router/router.dart';
-import 'package:authentication_ui/screens/fade_animationtest.dart';
-import 'package:authentication_ui/screens/Main_page.dart';
-import 'package:authentication_ui/widgets/custom_widget.dart';
+import 'package:SayAnything/common/common.dart';
+import 'package:SayAnything/router/router.dart';
+import 'package:SayAnything/screens/fade_animationtest.dart';
+import 'package:SayAnything/screens/Main_page.dart';
+import 'package:SayAnything/widgets/custom_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';

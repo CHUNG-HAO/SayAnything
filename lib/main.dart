@@ -1,4 +1,4 @@
-import 'package:authentication_ui/router/router_config.dart';
+import 'package:SayAnything/router/router_config.dart';
 import 'package:flutter/material.dart';
 
 void main() {
