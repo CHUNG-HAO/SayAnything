@@ -54,3 +54,7 @@ flutter run
 > 8. https://pub.dev/packages/flutter_local_notifications
 
 > 9. https://pub.dev/packages/rive
+
+> 10. https://pub.dev/packages/mockito
+
+> 11. https://pub.dev/packages/flutter_launcher_icons
