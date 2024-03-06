@@ -51,6 +51,9 @@ flutter:
     - assets/images/
     - assets/messages.json
     - assets/animation/cat.riv
+    - assets/animation/hand.riv
+    - assets/animation/2.riv
+    - assets/animation/3.riv
   fonts:
     - family: Urbanist
       fonts:

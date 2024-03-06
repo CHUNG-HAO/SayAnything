@@ -1,5 +1,6 @@
+import 'package:authentication_ui/screens/fade_animationtest.dart';
 import 'package:flutter/material.dart';
-
+import 'package:rive/rive.dart' as rive;
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -20,8 +21,25 @@ class HomePage extends StatelessWidget {
               elevation: 0,
             ),
             Center(
-         
-            ),
+              child: SizedBox(
+                child: Column(
+                  children: [
+                    FadeInAnimation(
+                      delay: 1,
+                      child: Container(
+                        height: 200,
+                        width: 200,
+                        child: rive.RiveAnimation.asset(
+                          'assets/animation/3.riv',
+                          fit: BoxFit.cover,
+                          alignment: Alignment.center,
+                        ),
+                      ),
+                    ),
+                  ]
+                ),
+              ),
+            )
           ],
         ),
       ),

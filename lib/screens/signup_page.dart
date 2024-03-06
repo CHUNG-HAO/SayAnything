@@ -37,7 +37,6 @@ class _SignupPageState extends State<SignupPage> {
 
     Navigator.pop(context);
   }
-
   
 
   @override

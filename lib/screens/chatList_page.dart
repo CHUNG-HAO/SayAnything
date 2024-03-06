@@ -68,9 +68,9 @@ class _ChatListState extends State<ChatList> {
   List<String> chatRooms = [
     'Chris',
     'Anderson',
-    'Eric',
     'Cosmo ',
     'Ivy ',
+    '鍾弘浩',
     // Add more chat rooms here
   ];
 
