@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/flutter_callkit_incoming-Swift.h</key>
 		<data>
-		+usAJjICa2m6pIWkpckVOwK/2CA=
+		OkzH9dEoHQ29VcAf0GqGDs+9XZQ=
 		</data>
 		<key>Headers/flutter_callkit_incoming-umbrella.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2dtAV9L2aaayLpRVKzwhLKxG21Q=
+		le4qiySflBJ0HoNEbaKFQ4hLzyI=
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		IEXZI0rX6dr5RtzKogAESRFm534=
+		UdlaeSLHiQrXLBx/z8AL86Zl0D8=
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		nuVCgRb3vgkahy224jRmDt7AKyQ=
+		FmTpBqMLc6QcMHtdwFNu0aXn61k=
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7TkJPBnZveW6z+oLbZgY6IuS9vY=
+		r+w3PB/Qak69zhFJF5PlfSnVRCo=
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+fRqcXdKXb3wr3HAVj+Wp7qKPCU=
+		bms41hDVC9eYSbQo0QBVk5FP5rE=
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		oV/HL4WHd9bIn5/v3TTYMW1jjCM=
+		goFefkqv7aUkQFEvqSmZjRPYu+4=
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eT6zOWJUXlMDtiCuTTObpgn6s+A=
+		D2NTX2sNOcsHtisKXLTzY4kYJUU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4kBpgU4wGRAyTl4BFoInXq6Mfn+FIsiI8wcS3+kOomM=
+			mWrGG/L9/EzSQi4U0AKrBT4O79gy6KytlWMpS82ZXG4=
 			</data>
 		</dict>
 		<key>Headers/flutter_callkit_incoming-umbrella.h</key>
@@ -84,14 +84,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SadCvXOqKUsHMoRLlat1tIVwLK1NG1lsh5H0U6eUuNY=
+			Ijv5iI5Pons3uLnGDlm+5exhpohvuUyKggHx/ckrwxw=
 			</data>
 		</dict>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Cb7Xkfz3cRYNRn/U8xOwBsGx/C8aqRMUekO+hfRpc8=
+			VWIoCEZY/j30+6nuSEpk8Op7BwaWWJn+7zrpZyxWju4=
 			</data>
 		</dict>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -105,14 +105,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			viqi4Ex65BFkka/WqTRXIbKw7CZwI07JsbJXgfTlNT8=
+			GVLDt428JHDn0upEOrjFetqmJQFWNAGczlfR9ktYSEA=
 			</data>
 		</dict>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+yZmswb08Q07aozlkbrNfXSQxQuLfTIeTEo3QEHjty4=
+			IxpG7hLJTd6JHhG/ykODF+sxXOiFFx2kDMxKzI7TIQA=
 			</data>
 		</dict>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nx3eIdNTDgIzTrh3bfLyo/NvVwdja7pgwE5YauWcC9k=
+			F/gQOcxMC2U6wthe0MjXq/lT8sMpbHNuc2NYR184PFw=
 			</data>
 		</dict>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wKe0SFqD78v92RrP9PG7CE/ZbPGVryidXgsgkS2Mw0E=
+			4RPDFGQTarYR0B/PnbX1xgQpt/V9K9R4eV7L99mDgM4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
