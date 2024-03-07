@@ -1,5 +1,5 @@
 import 'package:SayAnything/router/router.dart';
-import 'package:SayAnything/screens/authentication_ui.dart';
+import 'package:SayAnything/screens/SayAnything.dart';
 import 'package:SayAnything/screens/forget_password.dart';
 import 'package:SayAnything/screens/login_page.dart';
 import 'package:SayAnything/screens/new_password.dart';

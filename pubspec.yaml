@@ -56,6 +56,8 @@ flutter:
     - assets/animation/hand.riv
     - assets/animation/2.riv
     - assets/animation/3.riv
+    - assets/animation/click.riv
+    - assets/animation/buttoncta.riv
   fonts:
     - family: Urbanist
       fonts:

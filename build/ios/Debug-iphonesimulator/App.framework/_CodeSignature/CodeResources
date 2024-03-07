@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		K161fOoUs2NzFE8VZuQlwax89ZQ=
+		MfOfXP2VKbMokj+ZoMhKpm5Q/6s=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		w/2DIrgnHjRkTv8IfqvgqbtZlBw=
+		5pomMoz/t500A1+DI6ek0ySWtuk=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -32,9 +32,17 @@
 		<data>
 		YD33eUBgwfd9XOv0dDmZT1SI6mU=
 		</data>
+		<key>flutter_assets/assets/animation/buttoncta.riv</key>
+		<data>
+		NLtK+O4oANrMuRJKV0rcLiDDtcs=
+		</data>
 		<key>flutter_assets/assets/animation/cat.riv</key>
 		<data>
 		DX6ZiAZEBsQTXxUCYcn0zV2CEIg=
+		</data>
+		<key>flutter_assets/assets/animation/click.riv</key>
+		<data>
+		G2eK9UNa4QJXbPH5Iaj8GOr4+h8=
 		</data>
 		<key>flutter_assets/assets/animation/hand.riv</key>
 		<data>
@@ -88,10 +96,6 @@
 		<data>
 		JfSTc8RSnWXMf+40/uYc7HySYgU=
 		</data>
-		<key>flutter_assets/assets/images/cup.png</key>
-		<data>
-		O60o3ZEum99I0ciF6v5FjovJeWY=
-		</data>
 		<key>flutter_assets/assets/images/george.png</key>
 		<data>
 		o17/k8Tqj7ZACM7Q8la8yOmNBbs=
@@ -138,7 +142,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		M5faDYrAJ7bR1oTpua+XOmDIJ9s=
+		pTaBzC/BxLmnIr+GXEh0jWt+mKM=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -275,14 +279,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jPO3Q1UnULhUPpdVEWLzuDiSzDlw590GVwxCfiEfqFg=
+			+KDRUwMLW8hnRv4VSgzUkk0eZOX9sBoXAhWeHCdI/Kk=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4J6eEUBIbDKnoJmOiY74qeJG3p5kcK3ObunAI3OVAbQ=
+			MBDRvXGnH1vyolaKu7wmNT+e00aKhKnxvbCy9LbYjAY=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -313,11 +317,25 @@
 			U9jWtHXZ14d4TiIJIUCU8vgTi/GANM9OfxZxu4tnxLQ=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/animation/buttoncta.riv</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZSRVRyYRN/KO8QIXoO11x1211zrk8c6khbJ2iEj0bnY=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/animation/cat.riv</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ENIRjnwyWDGoJuhW0SSj5BzQwKRfMSoZTop2CFS/B58=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/animation/click.riv</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lbDENXzhdnXaR3zzYtsKGrc4+VcAnU2GEm6UnGkwZUo=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/animation/hand.riv</key>
@@ -411,13 +429,6 @@
 			nF75pt4T8OJ38BFUy/r+GmMAHDWR2lSF9wFnidiYXiY=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/images/cup.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2Pe7neW5k58OxIULGQBF+pCWEZjPAmYOhzuyTmbQK64=
-			</data>
-		</dict>
 		<key>flutter_assets/assets/images/george.png</key>
 		<dict>
 			<key>hash2</key>
@@ -499,7 +510,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2jwS5Y1ReUPDANOPGho5nmBEArOtPyNLlYv6ZUOf58E=
+			IhzDscwN0QQms8MLirPTtna5PQzKcjiYRREHJ64G2X8=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
