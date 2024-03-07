@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>logFormatVersion</key>
-	<integer>10</integer>
+	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>96532971-7474-4DD0-B629-D8B79A15253D</key>
+		<key>CBD44728-53FC-488A-940E-080015EF6685</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>96532971-7474-4DD0-B629-D8B79A15253D.xcactivitylog</string>
+			<string>CBD44728-53FC-488A-940E-080015EF6685.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -29,7 +29,7 @@
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
-				<integer>1</integer>
+				<integer>2</integer>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>Runner project</string>
@@ -40,13 +40,13 @@
 			<key>signature</key>
 			<string>Building workspace Runner with scheme Runner and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>729942145.56823599</real>
+			<real>731534490.13227296</real>
 			<key>timeStoppedRecording</key>
-			<real>729942166.758582</real>
+			<real>731534500.59539497</real>
 			<key>title</key>
 			<string>Building workspace Runner with scheme Runner and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>96532971-7474-4DD0-B629-D8B79A15253D</string>
+			<string>CBD44728-53FC-488A-940E-080015EF6685</string>
 		</dict>
 	</dict>
 </dict>

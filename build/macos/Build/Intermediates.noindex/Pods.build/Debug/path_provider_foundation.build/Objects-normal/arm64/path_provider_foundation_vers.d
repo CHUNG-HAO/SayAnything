@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/zhonghonghao/iOS/build/macos/Build/Intermediates.noindex/Pods.build/Debug/path_provider_foundation.build/module.modulemap \
-  /Users/zhonghonghao/iOS/build/macos/Build/Intermediates.noindex/Pods.build/Debug/path_provider_foundation.build/DerivedSources/path_provider_foundation_vers.c
+  /Users/zhonghonghao/Dating/build/macos/Build/Intermediates.noindex/Pods.build/Debug/path_provider_foundation.build/module.modulemap \
+  /Users/zhonghonghao/Dating/build/macos/Build/Intermediates.noindex/Pods.build/Debug/path_provider_foundation.build/DerivedSources/path_provider_foundation_vers.c

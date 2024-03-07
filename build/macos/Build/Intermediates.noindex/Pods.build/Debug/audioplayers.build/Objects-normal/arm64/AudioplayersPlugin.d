@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/zhonghonghao/iOS/build/macos/Build/Intermediates.noindex/Pods.build/Debug/audioplayers.build/module.modulemap \
+  /Users/zhonghonghao/Dating/build/macos/Build/Intermediates.noindex/Pods.build/Debug/audioplayers.build/module.modulemap \
   /Users/zhonghonghao/.pub-cache/hosted/pub.dev/audioplayers-0.18.3/macos/Classes/AudioplayersPlugin.m \
-  /Users/zhonghonghao/iOS/macos/Pods/Target\ Support\ Files/audioplayers/audioplayers-prefix.pch \
+  /Users/zhonghonghao/Dating/macos/Pods/Target\ Support\ Files/audioplayers/audioplayers-prefix.pch \
   /Users/zhonghonghao/.pub-cache/hosted/pub.dev/audioplayers-0.18.3/macos/Classes/AudioplayersPlugin.h \
   /opt/homebrew/Caskroom/flutter/3.16.7/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap \
   /opt/homebrew/Caskroom/flutter/3.16.7/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h \
@@ -18,4 +18,4 @@ dependencies: \
   /opt/homebrew/Caskroom/flutter/3.16.7/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h \
   /opt/homebrew/Caskroom/flutter/3.16.7/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterTexture.h \
   /opt/homebrew/Caskroom/flutter/3.16.7/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterViewController.h \
-  /Users/zhonghonghao/iOS/build/macos/Build/Products/Debug/audioplayers/audioplayers.framework/Headers/audioplayers-Swift.h
+  /Users/zhonghonghao/Dating/build/macos/Build/Products/Debug/audioplayers/audioplayers.framework/Headers/audioplayers-Swift.h
