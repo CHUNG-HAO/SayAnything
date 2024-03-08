@@ -61,13 +61,14 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(height: 20),  // Add some space above the button
-                ElevatedButton(
-                  onPressed: () {
-
-                  },
-                  child: Text('PAIR'),
-                ),
+                SizedBox(height: 20), 
+                FloatingActionButton(
+                onPressed: () {
+                  
+                },
+                child: Icon(Icons.navigation),
+                backgroundColor: Color.fromARGB(255, 244, 246, 247),
+              )
               ],
             ),
           ),

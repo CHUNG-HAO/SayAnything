@@ -74,7 +74,7 @@ class _MainPageState extends State<MainPage> {
         backgroundColor: Color(0xFF7EC4CF),
         items: <Widget>[
           Icon(Icons.volunteer_activism, size: 30, color: _iconColors[0]),
-          Icon(Icons.search, size: 30, color: _iconColors[1]),
+          Icon(Icons.people, size: 30, color: _iconColors[1]),
           Icon(Icons.home, size: 30, color: _iconColors[2]),
           Icon(Icons.wechat, size: 30, color: _iconColors[3]),
           ShaderMask(
