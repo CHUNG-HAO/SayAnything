@@ -1,0 +1,39 @@
+/* This css is for manage.html */
+
+#managePageTitle {
+    text-align: center;
+}
+
+table.datatable {
+    border: solid 3px;
+    width: 100%;
+    background: #fff;
+}
+
+table.datatable tr.odd_col {
+	background: #fff;
+}
+
+table.datatable tr.even_col {
+	background: #cee6f3;
+}
+
+table.datatable th {
+	text-align: center;
+	font-size: 9.5pt;
+	padding: 10px 10px 7px;   
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #0b259b;
+	font-family: sans-serif;
+}
+
+table.datatable td {
+	max-width: 500px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font: size 20pt;
+	padding:5px 10px;
+	border:1px solid #000;
+	text-align: center;
+}

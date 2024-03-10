@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/manage.css') }}" >
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+        <title>For Management</title>
+    </head>
+    <body>
+        <h1 id="managePageTitle">Manage Page</h1>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul class="flash">
+                {% for message in messages %}
+                <li>{{ message }} </li>
+                {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}
+
+        {% if query %}
+        
+        <input type="checkbox" name="pick_all" onclick="select_all(this)">
+        <form method="post" action={{ url_for('auth.delete_datas') }}>
+        <button id="delete_selected">刪除</button>
+        <div class="container">
+        <table class="datatable">
+                <thead>
+                        <tr>
+                                <th></th>
+                                <th>ID</th>
+                                <th>Username</th>
+                                <th>Gender(M/F)</th>
+                                <th id="email">Email</th>
+                                <th>hashed_password</th>
+                        </tr>
+                </thead>
+                <tbody>
+                {% for data in query %}affiliation
+                {% set row_class = ('even_col' if loop.index % 2 == 0 else'odd_col') %}
+                        <tr class="{{ row_class }}">
+                                <td><input type="checkbox" name="row_check" value="{{ data.id }}"></td>
+                                <td>{{ data.id }}</td>
+                                <td>{{ data.username }}</td>
+                                <td>{{ data.gender }}</td>
+                                <td>{{ data.email }}</td>
+                                <td>{{ data.password_hashed}}</td>
+                        </tr>
+                {% endfor %}
+                </tbody>
+        </table>
+        </div>
+        {% else %}
+		<div style="color:red;"><p>No Record Found</p></div>
+        {% endif %}
+        </form>
+    </body>
+</html>
