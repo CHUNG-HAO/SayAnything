@@ -154,64 +154,126 @@ class _SignupPageState extends State<SignupPage> {
                         delay: 2.7,
                         child: CustomElevatedButton(
                           message: "Register",
-                          function: () => performWithLoading(() async {
-                            await apiService.registerUser(
-                              usernameController.text,
-                              emailController.text,
-                              passwordController.text,
-                              genderController.text,  
-                            );
-                          }),
-                          color: Color(0xFF7EC4CF),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-              const SizedBox(
-                height: 15,
-              ),
-              Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: SizedBox(
-                  height: 160,
-                  width: double.infinity,
-                  child: Column(
-                    children: [
-                      FadeInAnimation(
-                        delay: 2.9,
-                        child: Text(
-                          "Or Register with",
-                          style: Common().semiboldblack,
+                          function: () async {
+                            if (usernameController.text.isEmpty ||
+                                emailController.text.isEmpty ||
+                                passwordController.text.isEmpty ||
+                                genderController.text.isEmpty ||
+                                confirmPasswordController.text.isEmpty) {
+                              showDialog(
+                                context: context,
+                                builder: (BuildContext context) {
+                                  return AlertDialog(
+                                    backgroundColor: Color(0xFF7EC4CF),
+                                    title: Text('Error'),
+                                    content: Text('Please make sure all fields are entered.'),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        child: Text('Confirm'),
+                                        onPressed: () {
+                                          Navigator.of(context).pop();
+                                        },
+                                      ),
+                                    ],
+                                  );
+                                },
+                              );
+                            }else if(passwordController.text != confirmPasswordController.text){
+                              showDialog(
+                                context: context,
+                                builder: (BuildContext context) {
+                                  return AlertDialog(
+                                    backgroundColor: Color(0xFF7EC4CF),
+                                    title: Text('Error'),
+                                    content: Text('Please make sure the password and confirm password are the same.'),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        child: Text('Confirm'),
+                                        onPressed: () {
+                                          Navigator.of(context).pop();                                          
+                                          },
+                                        ),
+                                      ],
+                                    );
+                                  },
+                                );
+                              } else {
+                              showDialog(
+                                    context: context,
+                                    builder: (BuildContext context) {
+                                      return AlertDialog(
+                                        backgroundColor: Color(0xFF7EC4CF),
+                                        title: Text('Verification code sent'),
+                                        content: Text('Please check your email for a verification code and to confirm your account.'),
+                                        actions: <Widget>[
+                                              TextButton(
+                                                child: Text('Confirm'),
+                                                onPressed: () {
+                                                  Navigator.of(context).pop();
+                                                },
+                                              ),
+                                            ],
+                                          );
+                                        },
+                                      );
+                                      await apiService.registerUser(
+                                        usernameController.text,
+                                        emailController.text,
+                                        passwordController.text,
+                                        genderController.text,  
+                                      );
+                                    }
+                                  },
+                                  color: Color(0xFF7EC4CF),
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                       const SizedBox(
-                        height: 20,
+                        height: 15,
                       ),
-                      FadeInAnimation(
-                      delay: 3.2,
-                      child: Padding(
-                        padding: const EdgeInsets.only(
-                            top: 10, bottom: 10, right: 30, left: 30),
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.center, 
-                          children: [
-                            SvgPicture.asset("assets/images/google_ic-1.svg"),
-                          ],
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: SizedBox(
+                          height: 160,
+                          width: double.infinity,
+                          child: Column(
+                            children: [
+                              FadeInAnimation(
+                                delay: 2.9,
+                                child: Text(
+                                  "Or Register with",
+                                  style: Common().semiboldblack,
+                                ),
+                              ),
+                              const SizedBox(
+                                height: 20,
+                              ),
+                              FadeInAnimation(
+                              delay: 3.2,
+                              child: Padding(
+                                padding: const EdgeInsets.only(
+                                    top: 10, bottom: 10, right: 30, left: 30),
+                                child: Row(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.center, 
+                                  children: [
+                                    SvgPicture.asset("assets/images/google_ic-1.svg"),
+                                  ],
+                                ),
+                              ),
+                            ),
+                            ],
+                          ),
                         ),
                       ),
-                    ),
                     ],
                   ),
                 ),
               ),
-            ],
-          ),
-        ),
-      ),
-    ),
-    );
-  }
-}
+            ),
+            );
+          }
+        }
