@@ -8,7 +8,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
 import 'package:SayAnything/services/API_services.dart';
 
-final apiService = ApiService();
+final apiService = SignupApiService();
 
 class SignupPage extends StatefulWidget {
   const SignupPage({super.key});

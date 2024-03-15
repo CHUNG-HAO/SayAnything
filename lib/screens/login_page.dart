@@ -8,6 +8,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
 
+import 'package:SayAnything/services/API_services.dart';
+
+final apiService = LoginApiService();
+
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
@@ -17,6 +21,31 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   bool flag = true;
+
+  final emailController = TextEditingController();
+  final passwordController = TextEditingController();
+
+  @override
+  void dispose() {
+    emailController.dispose();
+    passwordController.dispose();
+    super.dispose();
+  }
+
+  Future<void> _login() async {
+    try {
+      await apiService.login(emailController.text, passwordController.text);
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => MainPage(initialIndex: 2),
+        ),
+      );
+    } catch (e) {
+      print('Failed to log in: $e');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -70,7 +99,8 @@ class _LoginPageState extends State<LoginPage> {
                     children: [
                       FadeInAnimation(
                         delay: 1.9,
-                        child: const CustomTextFormField(
+                        child: CustomTextFormField(
+                          controller: emailController,
                           hinttext: 'Enter your email',
                           obsecuretext: false,
                         ),
@@ -81,9 +111,10 @@ class _LoginPageState extends State<LoginPage> {
                       FadeInAnimation(
                         delay: 2.2,
                         child: TextFormField(
+                          controller: passwordController,
                           obscureText: flag ? true : false,
                           decoration: InputDecoration(
-                              contentPadding: const EdgeInsets.all(18),
+                              contentPadding:  EdgeInsets.all(18),
                               hintText: "Enter your password",
                               hintStyle: Common().hinttext,
                               border: OutlineInputBorder(
@@ -116,23 +147,9 @@ class _LoginPageState extends State<LoginPage> {
                         child: CustomElevatedButton(
                           message: "Login",
                           function: () {
-                            if (flag) {
-                              setState(() {
-                                flag = false;
-                              });
-                            } else {
-                              setState(() {
-                                flag = true;
-                              });
-                            }
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => MainPage(initialIndex: 2)),
-                            );
+                            _login();
                           },
-                          color: Color(0xFF7EC4CF), 
-                          
+                          color:  Color(0xFF7EC4CF), 
                         ),
                       ),
                     ],
