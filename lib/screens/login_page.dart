@@ -182,8 +182,8 @@ class _LoginPageState extends State<LoginPage> {
                         padding: const EdgeInsets.only(
                             top: 10, bottom: 10, right: 30, left: 30),
                         child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,  // Change this line
-                          mainAxisAlignment: MainAxisAlignment.center,  // Change this line
+                          crossAxisAlignment: CrossAxisAlignment.center,  
+                          mainAxisAlignment: MainAxisAlignment.center,  
                           children: [
                             SvgPicture.asset("assets/images/google_ic-1.svg"),
                           ],
