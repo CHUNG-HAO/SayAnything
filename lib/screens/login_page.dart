@@ -9,6 +9,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
 
 import 'package:SayAnything/services/API_services.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
 
 final apiService = LoginApiService();
 
@@ -33,18 +35,20 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   Future<void> _login() async {
-    try {
-      await apiService.login(emailController.text, passwordController.text);
-      Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => MainPage(initialIndex: 2),
-        ),
-      );
-    } catch (e) {
-      print('Failed to log in: $e');
-    }
+  try {
+    String userId = await apiService.login(emailController.text, passwordController.text);
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setString('userId', userId);
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => MainPage(initialIndex: 2),
+      ),
+    );
+  } catch (e) {
+    print('Failed to log in: $e');
   }
+}
 
   @override
   Widget build(BuildContext context) {

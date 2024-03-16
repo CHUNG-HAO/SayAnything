@@ -14,6 +14,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "animated_text_kit",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/animated_text_kit-4.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "archive",
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/archive-3.4.10",
       "packageUri": "lib/",
@@ -926,7 +932,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-03-14T10:06:02.900852Z",
+  "generated": "2024-03-16T09:43:23.447383Z",
   "generator": "pub",
   "generatorVersion": "3.2.4"
 }

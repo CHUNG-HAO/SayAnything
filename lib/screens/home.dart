@@ -1,11 +1,26 @@
 import 'package:SayAnything/screens/fade_animationtest.dart';
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart' as rive;
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:SayAnything/services/API_services.dart';
+import 'package:SayAnything/screens/loading_page.dart';
+
+final matchApiService = MatchApiService();
+
+class UserIdService {
+  static Future<String> getCurrentUserId() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    String userId = prefs.getString('userId') ?? 'default_value';
+    return userId;
+  }
+}
 
 class HomePage extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
+    
 
     return Scaffold(
       body: Stack(
@@ -63,12 +78,24 @@ class HomePage extends StatelessWidget {
                 ),
                 SizedBox(height: 20), 
                 FloatingActionButton(
-                onPressed: () {
-                  
-                },
-                child: Icon(Icons.navigation),
-                backgroundColor: Color.fromARGB(255, 244, 246, 247),
-              )
+                  onPressed: () async {
+                    String userId = await UserIdService.getCurrentUserId();
+
+                    showDialog(
+                      context: context,
+                      barrierDismissible: false,
+                      builder: (BuildContext context) {
+                        return LoadingPage();
+                      },
+                    );
+
+                    await matchApiService.requestMatch(userId);
+
+                    Navigator.pop(context);
+                  },
+                  child: Icon(Icons.navigation),
+                  backgroundColor: Color.fromARGB(255, 244, 246, 247),
+                ),
               ],
             ),
           ),
