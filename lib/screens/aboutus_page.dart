@@ -94,8 +94,8 @@ class Aboutus extends StatelessWidget {
                                 }
                               },
                               child: Text('Submit'),
-                              style: ElevatedButton.styleFrom(
-                                primary: Color(0xFF7EC4CF), // Set the button color here
+                              style: ButtonStyle(
+                                backgroundColor: MaterialStateProperty.all<Color>(Color(0xFF7EC4CF)), // Set the button color here
                               ),
                             ),
                           ],

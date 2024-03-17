@@ -476,6 +476,24 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "leak_tracker",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/leak_tracker-10.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "leak_tracker_flutter_testing",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "leak_tracker_testing",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/leak_tracker_testing-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "linkify",
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/linkify-5.0.0",
       "packageUri": "lib/",
@@ -507,19 +525,19 @@
     },
     {
       "name": "matcher",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/matcher-0.12.16",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/material_color_utilities-0.8.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/meta-1.10.0",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/meta-1.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -555,9 +573,9 @@
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/path-1.8.3",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "path_parsing",
@@ -890,6 +908,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "vm_service",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/vm_service-13.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "watcher",
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/watcher-1.1.0",
       "packageUri": "lib/",
@@ -897,7 +921,7 @@
     },
     {
       "name": "web",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/web-0.3.0",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/web-0.4.2",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -932,7 +956,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-03-16T09:43:23.447383Z",
+  "generated": "2024-03-17T10:48:09.885799Z",
   "generator": "pub",
-  "generatorVersion": "3.2.4"
+  "generatorVersion": "3.3.1"
 }
