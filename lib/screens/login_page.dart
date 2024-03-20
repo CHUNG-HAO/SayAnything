@@ -27,6 +27,8 @@ class _LoginPageState extends State<LoginPage> {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
 
+    bool _isPasswordHidden = true;
+
   @override
   void dispose() {
     emailController.dispose();
@@ -34,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
     super.dispose();
   }
 
-  Future<void> _login() async {
+ Future<void> _login() async {
   try {
     String userId = await apiService.login(emailController.text, passwordController.text);
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -46,7 +48,12 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
   } catch (e) {
-    print('Failed to log in: $e');
+    print('Failed to log in');
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text('Failed to log in: $e'),
+      ),
+    );
   }
 }
 
@@ -116,19 +123,26 @@ class _LoginPageState extends State<LoginPage> {
                         delay: 2.2,
                         child: TextFormField(
                           controller: passwordController,
-                          obscureText: flag ? true : false,
+                          // Modify this line
+                          obscureText: _isPasswordHidden,
                           decoration: InputDecoration(
-                              contentPadding:  EdgeInsets.all(18),
-                              hintText: "Enter your password",
-                              hintStyle: Common().hinttext,
-                              border: OutlineInputBorder(
-                                  borderSide:
-                                      const BorderSide(color: Colors.black),
-                                  borderRadius: BorderRadius.circular(12)),
-                              suffixIcon: IconButton(
-                                  onPressed: () {},
-                                  icon: const Icon(
-                                      Icons.remove_red_eye_outlined))),
+                            contentPadding: EdgeInsets.all(18),
+                            hintText: "Enter your password",
+                            hintStyle: Common().hinttext,
+                            border: OutlineInputBorder(
+                              borderSide: const BorderSide(color: Colors.black),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            suffixIcon: IconButton(
+                              // Modify this line
+                              onPressed: () {
+                                setState(() {
+                                  _isPasswordHidden = !_isPasswordHidden;
+                                });
+                              },
+                              icon: const Icon(Icons.remove_red_eye_outlined),
+                            ),
+                          ),
                         ),
                       ),
                       FadeInAnimation(

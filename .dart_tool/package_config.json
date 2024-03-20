@@ -39,9 +39,45 @@
     },
     {
       "name": "audioplayers",
-      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/audioplayers-0.18.3",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/audioplayers-5.2.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "audioplayers_android",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/audioplayers_android-4.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "audioplayers_darwin",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/audioplayers_darwin-5.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "audioplayers_linux",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/audioplayers_linux-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "audioplayers_platform_interface",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/audioplayers_platform_interface-6.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "audioplayers_web",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/audioplayers_web-4.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "audioplayers_windows",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/audioplayers_windows-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "bloc",
@@ -800,6 +836,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "synchronized",
+      "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/synchronized-3.1.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/zhonghonghao/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -956,7 +998,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-03-17T10:48:09.885799Z",
+  "generated": "2024-03-20T14:14:43.490513Z",
   "generator": "pub",
   "generatorVersion": "3.3.1"
 }

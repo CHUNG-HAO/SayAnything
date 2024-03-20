@@ -143,7 +143,7 @@ class _SignupPageState extends State<SignupPage> {
                         delay: 2.4,
                         child: CustomTextFormField(
                           hinttext: 'Confirm password',
-                          obsecuretext: false,
+                          obsecuretext: true,
                           controller: confirmPasswordController,
                         ),
                       ),
