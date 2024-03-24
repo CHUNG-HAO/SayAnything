@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/CryptoSwift.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		XGC1MNG4uXCpKC+TjMUyItdwka4=
+		hJXezuOtt4hDyVQGcjrux4AwIIY=
 		</data>
 		<key>Modules/CryptoSwift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		/hzW7EVo0YllvYNr7MtWyKzJjK4=
+		z7UvuByjoc69FVA2Nm/2ET3PRSo=
 		</data>
 		<key>Modules/CryptoSwift.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/CryptoSwift.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Iy5T2pqHs4+UIqpcPcH0j1iBCOA=
+		xE5DeQ8Lo8FK1CGA1BRwuQ/HVRs=
 		</data>
 		<key>Modules/CryptoSwift.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/CryptoSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		N2SxBHBlDUiMTjQJBRLeppG1+qU=
+		QzTWGp3S8HkwuuRxdiHsRjhuvhE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,14 +73,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4JVDnQRAlYZGgcymbhLM+RLWZjuFo5V+GfQt5o89rPU=
+			Dgxq1vfNz5+2Xoe28+IVGraLrIAFCBGBIv7EaUu/pgo=
 			</data>
 		</dict>
 		<key>Modules/CryptoSwift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zz16JhdrYT6OEfkQQ7hzVHDzsrkWNXjUGFFp+zG0fSE=
+			WoE3Sz+yGOoTIoTphS3t+BVlpsf7GqrBiVd+SGN/P9Q=
 			</data>
 		</dict>
 		<key>Modules/CryptoSwift.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+k5eEemqiyIlkXyDCCGaEUUAnYtpu7wSwdb5gJiAAKY=
+			+Sw80ZAGQiw+g8Te6mdz40ivWcrZG1BTPd65DLzLqgk=
 			</data>
 		</dict>
 		<key>Modules/CryptoSwift.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BVeZwBC06lgAiOKwlA3TUTkH9n00gLol2VGDwD3swFo=
+			PQcQKzKwerD3AHPENpNZ+oOX52LWzQdTPVqyNDhdVgw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

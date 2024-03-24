@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/SwiftyGif.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		VOReTY7c1UBVkVJb8Fwb1EcXwLc=
+		plyj6AYVwxKY0jQZj4BS8iX6/xU=
 		</data>
 		<key>Modules/SwiftyGif.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		b3qn1Rs/ruplPPwm3LwG8PtPY9g=
+		aploEcHSBfFii09BYY21tKu+9VU=
 		</data>
 		<key>Modules/SwiftyGif.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SwiftyGif.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LcR1iexOiHjaEpY7HjezHk6a22c=
+		MR5ZTzfeyJQQ79AFnPIsogIfjAQ=
 		</data>
 		<key>Modules/SwiftyGif.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/SwiftyGif.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lP38qEYi54CnNw+ct3lS2tkNTxA=
+		QW7xJbUgAxZyWbvIIeZY5ik1TbM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,22 +96,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VOReTY7c1UBVkVJb8Fwb1EcXwLc=
+			plyj6AYVwxKY0jQZj4BS8iX6/xU=
 			</data>
 			<key>hash2</key>
 			<data>
-			KzrEFO+hYm8QpkYL9/tswAZ7sVhUPFAKd6MYSyTZVxQ=
+			7EmMwV5JQLgx7hJ+DePh+WcmoDbUcWMZUPxitvp/FGU=
 			</data>
 		</dict>
 		<key>Modules/SwiftyGif.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b3qn1Rs/ruplPPwm3LwG8PtPY9g=
+			aploEcHSBfFii09BYY21tKu+9VU=
 			</data>
 			<key>hash2</key>
 			<data>
-			4aW4SdSSxH2EAk/G6hsURRsBbF7F/I8OA2sN0XGL2hI=
+			QI7wbIpFGevaH4nObbNT7F+X0trygW5Sng1Km5fdg/U=
 			</data>
 		</dict>
 		<key>Modules/SwiftyGif.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -140,11 +140,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LcR1iexOiHjaEpY7HjezHk6a22c=
+			MR5ZTzfeyJQQ79AFnPIsogIfjAQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			dFnkitDxu7J1r6yyCEJPSqk4xgqgzpuiMLC9X+hU++8=
+			fkskNrLUgCW+1N/z7EUTF37kHIOy6RMoRS7UTnaQ3R0=
 			</data>
 		</dict>
 		<key>Modules/SwiftyGif.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -173,11 +173,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lP38qEYi54CnNw+ct3lS2tkNTxA=
+			QW7xJbUgAxZyWbvIIeZY5ik1TbM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2x/H4YcYTvRFfJ4iQfxt1nLT684IjV8XAQfu6Yio4dI=
+			Dse4QCjwprrtEZSQf2CuZ8xhvz2+RQgVJyaA22Rw9NU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bms41hDVC9eYSbQo0QBVk5FP5rE=
+		0ScKk/Gb/admzMRHMdyumBlYpWY=
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		D2NTX2sNOcsHtisKXLTzY4kYJUU=
+		9OZNMvJ3nQwkK2ju+1onWXAD/Lk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IxpG7hLJTd6JHhG/ykODF+sxXOiFFx2kDMxKzI7TIQA=
+			uuIJTqRncum97bNO6ZvXyqE1LD2fH0G1QbVc2AzvScc=
 			</data>
 		</dict>
 		<key>Modules/flutter_callkit_incoming.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4RPDFGQTarYR0B/PnbX1xgQpt/V9K9R4eV7L99mDgM4=
+			Gxl/yMDK/ZfSnF/gX+mSws1trwLs7N0U94YB5tr3DDg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
