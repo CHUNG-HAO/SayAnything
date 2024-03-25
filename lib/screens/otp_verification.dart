@@ -8,6 +8,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:pinput/pinput.dart';
+import 'package:SayAnything/services/API_services.dart';
+
+final otpServices = OtpVerificationApiService();
 
 class OtpVerificationPage extends StatefulWidget {
   const OtpVerificationPage({super.key});
@@ -17,6 +20,8 @@ class OtpVerificationPage extends StatefulWidget {
 }
 
 class _OtpVerificationPageState extends State<OtpVerificationPage> {
+  final otpService = OtpVerificationApiService();
+
   @override
   Widget build(BuildContext context) {
     final defaultPinTheme = PinTheme(
@@ -88,22 +93,28 @@ class _OtpVerificationPageState extends State<OtpVerificationPage> {
                   child: Column(
                     children: [
                       FadeInAnimation(
-                        delay: 1.9,
-                        child: Pinput(
-                          defaultPinTheme: defaultPinTheme,
-                          focusedPinTheme: focusedPinTheme,
-                          submittedPinTheme: submittedPinTheme,
-                          validator: (s) {
-                            return s == '2222' ? null : 'Pin is incorrect';
-                          },
-                          pinputAutovalidateMode:
-                              PinputAutovalidateMode.onSubmit,
-                          showCursor: true,
-                          onCompleted: (pin) {
-                            print(pin);
-                          },
+                          delay: 1.9,
+                          child: Pinput(
+                            defaultPinTheme: defaultPinTheme,
+                            focusedPinTheme: focusedPinTheme,
+                            submittedPinTheme: submittedPinTheme,
+                            pinputAutovalidateMode: PinputAutovalidateMode.onSubmit,
+                            showCursor: true,
+                            onCompleted: (pin) async {
+                              final response = await otpService.verifyOtp(pin);
+                              if (response == 200) {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(content: Text('OTP verified successfully')),
+                                );
+                                GoRouter.of(context).pushNamed(Routers.newpassword.name);
+                              } else if (response == 400) {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(content: Text('Failed to verify OTP')),
+                                );
+                              }
+                            },
+                          ),
                         ),
-                      ),
                       const SizedBox(
                         height: 30,
                       ),

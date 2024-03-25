@@ -5,7 +5,9 @@ import 'package:SayAnything/widgets/custom_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:SayAnything/services/API_services.dart';
 
+final apiService = PasswordResetApiService();
 class NewPasswordPage extends StatefulWidget {
   const NewPasswordPage({super.key});
 
@@ -14,6 +16,11 @@ class NewPasswordPage extends StatefulWidget {
 }
 
 class _NewPasswordPageState extends State<NewPasswordPage> {
+
+  final newPasswordController = TextEditingController();
+  final confirmPasswordController = TextEditingController();
+  final passwordResetService = PasswordResetApiService();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -64,9 +71,10 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                     children: [
                       FadeInAnimation(
                         delay: 1.9,
-                        child: const CustomTextFormField(
+                        child: CustomTextFormField(
                           hinttext: 'New password',
                           obsecuretext: false,
+                          controller: newPasswordController,
                         ),
                       ),
                       const SizedBox(
@@ -74,9 +82,10 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                       ),
                       FadeInAnimation(
                         delay: 2.1,
-                        child: const CustomTextFormField(
+                        child: CustomTextFormField(
                           hinttext: 'Confirm password',
                           obsecuretext: false,
+                          controller: confirmPasswordController,
                         ),
                       ),
                       SizedBox(
@@ -86,12 +95,27 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                         delay: 2.4,
                         child: CustomElevatedButton(
                           message: "Reset Password ",
-                          function: () {
-                            GoRouter.of(context)
-                                .pushNamed(Routers.passwordchanges.name);
+                          function: () async {
+                            if (newPasswordController.text != confirmPasswordController.text) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(content: Text('Passwords do not match')),
+                              );
+                              return;
+                            }
+
+                            final response = await passwordResetService.resetPassword(newPasswordController.text);
+                            if (response == 200) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(content: Text('Password reset successfully')),
+                              );
+                              GoRouter.of(context).pushNamed(Routers.passwordchanges.name);
+                            } else {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(content: Text('Failed to reset password')),
+                              );
+                            }
                           },
                           color: Color(0xFF7EC4CF),
-                          
                         ),
                       ),
                     ],

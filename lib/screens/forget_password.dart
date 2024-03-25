@@ -5,6 +5,9 @@ import 'package:SayAnything/widgets/custom_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:SayAnything/services/API_services.dart';
+
+final apiService = ForgetPasswordApiService();
 
 class ForgetPasswordPage extends StatefulWidget {
   const ForgetPasswordPage({super.key});
@@ -14,6 +17,10 @@ class ForgetPasswordPage extends StatefulWidget {
 }
 
 class _ForgetPasswordPageState extends State<ForgetPasswordPage> {
+
+  final _emailController = TextEditingController();
+  final _forgetPasswordApiService = ForgetPasswordApiService();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -62,9 +69,10 @@ class _ForgetPasswordPageState extends State<ForgetPasswordPage> {
                 child: Form(
                   child: Column(
                     children: [
-                      FadeInAnimation(
+                       FadeInAnimation(
                         delay: 1.9,
-                        child: const CustomTextFormField(
+                        child: CustomTextFormField(
+                          controller: _emailController,
                           hinttext: 'Enter your email',
                           obsecuretext: false,
                         ),
@@ -76,12 +84,16 @@ class _ForgetPasswordPageState extends State<ForgetPasswordPage> {
                         delay: 2.1,
                         child: CustomElevatedButton(
                           message: "Send Code ",
-                          function: () {
-                            GoRouter.of(context)
-                                .pushNamed(Routers.otpverification.name);
+                          function: () async {
+                            try {
+                              await _forgetPasswordApiService.resetPassword(_emailController.text);
+                              GoRouter.of(context).pushNamed(Routers.otpverification.name);
+                            } catch (e) {
+                              print(e);
+                              
+                            }
                           },
                           color: Color(0xFF7EC4CF),
-                          
                         ),
                       ),
                     ],
